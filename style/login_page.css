@@ -1,0 +1,17 @@
+.login_background {
+    background: url("../assets/movie_pic/darkknight.jpeg") no-repeat;
+    background-size: cover;
+    padding: 100px;
+    text-align: center;
+}
+.login_form_container {
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.7;
+}
+.login_title {
+    font-size: 40px;
+    font-family: "Hiragino Sans GB"
+}
