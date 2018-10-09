@@ -1,0 +1,15 @@
+.primary_button {
+    border-radius: 10px;
+    height: 35px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.icon_button {
+    height: 30px;
+    width: 30px;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: white;
+}
