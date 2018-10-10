@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
-    padding: 30px;
+    padding: 20px;
 }
 .edit_header {
     background-color: #ffffff;
@@ -24,7 +24,9 @@
     text-align: center;
 }
 .edit_tool_container {
+    border-top: solid white 1px;
     height: 50px;
-    width: 100%;
     text-align: center;
+    display: flex;
+    margin-top: 20px;
 }

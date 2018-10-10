@@ -11,5 +11,9 @@
     border: solid black 1px;
     border-radius: 5px;
     padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 20px;
     background-color: white;
+    cursor: pointer;
 }
