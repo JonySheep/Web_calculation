@@ -1,5 +1,8 @@
 "use strict";
 
+var cropButtons = document.getElementById("crop_buttons");
+cropInitial();
+
 function cropInitial() {
     $('#curImg').cropper({
         viewMode: 1,
@@ -14,7 +17,7 @@ function cropInitial() {
         //        autoCropArea:0.1,
         //        movable:false,
         scalable:false,
-        //        zoomable:false,
+        zoomable:false,
         //        wheelZoomRatio:false,
         //        cropBoxMovable:false,
         //        cropBoxResizable:false,
@@ -40,4 +43,30 @@ function cropInitial() {
             console.log("zoom");
         },
     });
+
+    cropButtons.style.visibility = "visible";
+}
+
+function cropSave() {
+    cropButtons.style.visibility = "hidden";
+    $('#curImg').cropper('destroy');
+}
+
+function cropCancel() {
+    cropButtons.style.visibility = "hidden";
+    $('#curImg').cropper('destroy');
+}
+
+/**
+ * 顺时针旋转图片
+ */
+function clockwiseRotate() {
+    $('#curImg').cropper('rotate', 90 );
+}
+
+/**
+ * 逆时针旋转图片
+ */
+function anticlockwiseRotate() {
+    $('#curImg').cropper('rotate', -90 );
 }
