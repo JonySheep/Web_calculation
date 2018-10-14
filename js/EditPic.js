@@ -47,11 +47,28 @@ function cropInitial() {
     cropButtons.style.visibility = "visible";
 }
 
+/**
+ * 保存图片
+ */
 function cropSave() {
     cropButtons.style.visibility = "hidden";
+
+    console.log($('#curImg').cropper('getCroppedCanvas'));;
+    var cas=$('#curImg').cropper('getCroppedCanvas');
+    var base64url=cas.toDataURL('image/jpeg');
+    cas.toBlob(function (e) {
+        console.log(e);  //生成Blob的图片格式
+    })
+
+    $('#curImg').attr('src', base64url);
+    console.log($('#curImg')); //生成base64图片的格式
+
     $('#curImg').cropper('destroy');
 }
 
+/**
+ * 取消编辑
+ */
 function cropCancel() {
     cropButtons.style.visibility = "hidden";
     $('#curImg').cropper('destroy');
