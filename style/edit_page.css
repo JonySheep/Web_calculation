@@ -8,7 +8,6 @@
     background-color: #ffffff;
     width: 100%;
     height: 50px;
-    /*display: flex;*/
 }
 .edit_header_title {
     font-family: Avenir;
@@ -18,10 +17,10 @@
     float: left;
 }
 .pic_container {
-    width: 1000px;
-    height: 600px;
-    margin: auto;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .edit_tool_container {
     border-top: solid white 1px;
@@ -29,4 +28,7 @@
     text-align: center;
     display: flex;
     margin-top: 20px;
+}
+#curImg {
+    margin: auto;
 }
