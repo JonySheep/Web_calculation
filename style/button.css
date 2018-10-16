@@ -1,11 +1,11 @@
-.primary_button {
-    border-radius: 10px;
+.primary-button {
+    border-radius: 5px;
     height: 35px;
     margin: 10px;
     font-size: 15px;
     cursor: pointer;
 }
-.icon_button {
+.icon-button {
     height: 30px;
     width: 30px;
     border: solid black 1px;

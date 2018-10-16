@@ -1,0 +1,19 @@
+.edit-header {
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+}
+.edit-header-title {
+    font-family: Avenir;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    float: left;
+}
+.edit-small-title {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    font-size: 13px;
+}

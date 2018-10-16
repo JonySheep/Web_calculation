@@ -1,33 +1,25 @@
-.edit_background {
+.edit-background {
     background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
-    padding: 20px;
 }
-.edit_header {
-    background-color: #ffffff;
-    width: 100%;
-    height: 50px;
-}
-.edit_header_title {
-    font-family: Avenir;
-    margin-left: 30px;
-    margin-top: 5px;
-    font-size: 30px;
-    float: left;
-}
-.pic_container {
+.pic-container {
     width: 100%;
     height: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.edit_tool_container {
-    border-top: solid white 1px;
-    height: 50px;
-    text-align: center;
+    margin: 20px;
     display: flex;
-    margin-top: 20px;
+}
+.edit-tool-container {
+    border-top: solid white 1px;
+    height: 80px;
+    text-align: center;
+    padding-right: 20px;
+}
+#edit-buttons {
+    text-align: right;
+}
+#operation-buttons {
+    text-align: left;
 }
 #curImg {
     margin: auto;

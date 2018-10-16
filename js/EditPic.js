@@ -1,24 +1,24 @@
 "use strict";
 
-var cropButtons = document.getElementById("crop_buttons");
-cropInitial();
+var editButtons = document.getElementById("edit-buttons");
+var operationButtons = document.getElementById("operation-buttons");
+var scaleCount = 0;
 
-function cropInitial() {
+function editInitial() {
     $('#curImg').cropper({
         viewMode: 1,
-        dragMode: 'none',
-        preview: ".small",
+        dragMode: 'move',
         responsive: false,
         restore: false,
         //        modal:false,
         //        guides:false,
-        //        background:false,
+        background:false,
         autoCrop: false,
         //        autoCropArea:0.1,
         //        movable:false,
-        scalable:false,
-        zoomable:false,
-        //        wheelZoomRatio:false,
+        // scalable:false,
+        // zoomable:false,
+        zoomOnWheel:false,
         //        cropBoxMovable:false,
         //        cropBoxResizable:false,
         ready: function () {
@@ -44,14 +44,16 @@ function cropInitial() {
         },
     });
 
-    cropButtons.style.visibility = "visible";
+    editButtons.style.display = "flex";
+    operationButtons.style.display = "none";
 }
 
 /**
  * 保存图片
  */
 function cropSave() {
-    cropButtons.style.visibility = "hidden";
+    editButtons.style.display = "none";
+    operationButtons.style.display = "flex";
 
     console.log($('#curImg').cropper('getCroppedCanvas'));;
     var cas=$('#curImg').cropper('getCroppedCanvas');
@@ -70,8 +72,10 @@ function cropSave() {
  * 取消编辑
  */
 function cropCancel() {
-    cropButtons.style.visibility = "hidden";
+    editButtons.style.display = "none";
+    operationButtons.style.display = "flex";
     $('#curImg').cropper('destroy');
+    window.location.reload();
 }
 
 /**
@@ -86,4 +90,20 @@ function clockwiseRotate() {
  */
 function anticlockwiseRotate() {
     $('#curImg').cropper('rotate', -90 );
+}
+
+/**
+ * 放大图片一倍
+ */
+function enlarge() {
+    $('#curImg').cropper('zoom', 1);
+    scaleCount += 1;
+}
+
+/**
+ * 缩小代码一倍
+ */
+function shrink() {
+    $('#curImg').cropper('zoom', -1);
+    scaleCount -= 1;
 }
