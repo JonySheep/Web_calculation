@@ -6,7 +6,9 @@ var srcList = [
     "../assets/movie_pic/Inception.jpg",
     "../assets/movie_pic/batmanbegins.jpg",
     "../assets/movie_pic/following.jpg",
-    "../assets/movie_pic/darkknight4.jpg"
+    "../assets/movie_pic/intersteller.jpg",
+    "../assets/movie_pic/insomnia.jpg",
+    "../assets/movie_pic/darkknightrise.jpg"
 ];
 var chosenList = [];
 
@@ -17,6 +19,10 @@ for(var i = 0; i < srcList.length; i++) {
         "height='150' " +
         "class='chosen-pic'></li>");
 };
+
+function recover() {
+    window.location.reload();
+}
 
 /**
  * 点击一张图片的响应方法
@@ -48,8 +54,12 @@ function choosePic(id) {
             fivePicsLayout();
             break;
         }
+        case 6 : {
+            sixPicsLayout();
+            break;
+        }
         default :{
-            $('#connected-pic').append("<img src='" + srcList[id] +"' width='250' height='350' class='each-connect-pic'>");
+            alert("无法拼接六张以上的照片");
         }
     }
 
@@ -63,26 +73,36 @@ function twoPicsLayout() {
 
 function threePicsLayout() {
     $('#connected-pic').empty();
-    appendBigPic(0);
+    appendMiddlePic(0);
     appendMiddlePic(1);
     appendMiddlePic(2);
 }
 
 function fourPicsLayout() {
     $('#connected-pic').empty();
-    appendMiddlePic(0);
-    appendMiddlePic(1);
-    appendMiddlePic(2);
-    appendMiddlePic(3);
+    appendSmallPic(0);
+    appendSmallPic(1);
+    appendSmallPic(2);
+    appendSmallPic(3);
 }
 
 function fivePicsLayout() {
     $('#connected-pic').empty();
     appendBigPic(0);
+    appendSmallPic(1);
+    appendSmallPic(2);
+    appendSmallPic(3);
+    appendSmallPic(4);
+}
+
+function sixPicsLayout() {
+    $('#connected-pic').empty();
+    appendMiddlePic(0);
     appendMiddlePic(1);
     appendMiddlePic(2);
     appendMiddlePic(3);
     appendMiddlePic(4);
+    appendMiddlePic(5);
 }
 
 function appendBigPic(id) {
@@ -90,5 +110,12 @@ function appendBigPic(id) {
 }
 
 function appendMiddlePic(id) {
+    $('#connected-pic').append("<img src='" + chosenList[id] +"' width='333' height='466' class='each-connect-pic'>");
+}
+function appendSmallPic(id) {
     $('#connected-pic').append("<img src='" + chosenList[id] +"' width='250' height='350' class='each-connect-pic'>");
+}
+
+function toCenter() {
+    window.location.href = "./DirectorDetailPage.html";
 }
