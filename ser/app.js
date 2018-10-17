@@ -4,6 +4,14 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+var favicon = require('static-favicon');
+
+var bodyParser = require('body-parser');
+
+var session = require('express-session');
+var Settings = require('./database/setting');
+var MongoStore = require('connect-mongodb');
+var db = require('./database/msession');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -16,14 +24,37 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
+app.use(favicon());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded());
+
+//session config
+app.use(session({
+    cookie: {maxAge: 600000},
+    secret: Settings.COOKIE_SECRET,
+    store: new MongoStore({
+        username: Settings.USERNAME,
+        password: Settings.PASSWORD,
+        url: Settings.URL,
+        db: db
+    })
+}));
+app.use(function (req, res, next) {
+    res.locals.user = req.session.user;
+    next();
+})
 
 // route config
 app.use('/', indexRouter);
+app.use('/login', indexRouter);
+app.use('/register', indexRouter);
+app.use('/editPic', indexRouter);
+app.use('/connectPic', indexRouter);
 app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
@@ -40,6 +71,18 @@ app.use(function(err, req, res, next) {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+//message
+app.use(function (req, res, next) {
+    res.locals.user = req.session.user;
+    var err = req.session.error;
+    delete req.session.error;
+    res.locals.message = '';
+    if(err) {
+      alert(err);
+    }
+    next();
 });
 
 module.exports = app;

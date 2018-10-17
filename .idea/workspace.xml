@@ -2,58 +2,1177 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/database/msession.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/database/setting.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/.recently_updates.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/node_modules/mime-types" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/node_modules/negotiator" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_accepts@1.3.5@accepts/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_array-flatten@1.1.1@array-flatten/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_array-flatten@1.1.1@array-flatten/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_array-flatten@1.1.1@array-flatten/array-flatten.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_array-flatten@1.1.1@array-flatten/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_basic-auth@2.0.1@basic-auth/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/lib/read.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/lib/types/json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/lib/types/raw.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/lib/types/text.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/lib/types/urlencoded.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/bytes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/content-type" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/http-errors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/iconv-lite" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/qs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/raw-body" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/node_modules/type-is" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_body-parser@1.18.3@body-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/HISTORY" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/binding.gyp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/browser_build/bson.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/browser_build/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/Release/.deps/Release/obj.target/bson/ext/bson.o.d.raw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/binding.Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/bson.target.mk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/config.gypi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build/gyp-mac-tool" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/build_browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/builderror.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/bson.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/bson.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/win32/ia32/bson.node" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/win32/x64/bson.node" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/ext/wscript" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/binary.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/binary_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/bson.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/bson_new.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/db_ref.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/double.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/float_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/long.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/max_key.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/min_key.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/objectid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/symbol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/lib/bson/timestamp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/node_modules/nan" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/gleak.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/jasmine-1.1.0/MIT.LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/jasmine-1.1.0/jasmine-html.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/jasmine-1.1.0/jasmine.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/jasmine-1.1.0/jasmine.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@0.2.22@bson/tools/jasmine-1.1.0/jasmine_favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/bower.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/browser_build/bson.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/browser_build/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/binary.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/bson.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/code.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/db_ref.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/decimal128.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/double.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/float_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/int_32.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/long.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/map.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/max_key.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/min_key.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/objectid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/parser/calculate_size.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/parser/deserializer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/parser/serializer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/parser/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/regexp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/symbol.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/lib/bson/timestamp.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bson@1.1.0@bson/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bytes@3.0.0@bytes/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bytes@3.0.0@bytes/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bytes@3.0.0@bytes/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bytes@3.0.0@bytes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_bytes@3.0.0@bytes/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/example/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/lib/connect-mongodb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/node_modules/connect" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/node_modules/mongodb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect-mongodb@1.1.5@connect-mongodb/tests/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/cache.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/connect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/http.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/https.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/basicAuth.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/bodyParser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/compiler.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/compress.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/cookieParser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/csrf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/directory.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/errorHandler.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/favicon.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/limit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/logger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/methodOverride.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/profiler.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/responseTime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/router.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/session.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/session/cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/session/memory.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/session/session.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/session/store.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/static.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/staticCache.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/middleware/vhost.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/patch.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/directory.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/error.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_attach.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_error.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_excel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_find.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_gear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_go.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_green.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_key.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_lightning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_paintbrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_paste.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_refresh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_save.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_acrobat.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_actionscript.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_add.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_c.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_camera.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_cd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_code_red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_coldfusion.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_compressed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_copy.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_cplusplus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_csharp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_cup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_database.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_dvd.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_edit.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_error.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_excel.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_find.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_flash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_freehand.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_gear.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_get.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_go.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_horizontal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_key.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_lightning.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_link.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_magnify.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_medal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_office.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_paint.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_paintbrush.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_paste.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_php.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_picture.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_powerpoint.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_put.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_ruby.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_stack.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_star.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_swoosh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_text.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_text_width.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_tux.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_vector.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_visualstudio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_width.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_word.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_wrench.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_white_zip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_word.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/icons/page_world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/public/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/node_modules/.bin/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/node_modules/formidable" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/node_modules/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/node_modules/qs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_connect@1.9.2@connect/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-disposition@0.5.2@content-disposition/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-disposition@0.5.2@content-disposition/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-disposition@0.5.2@content-disposition/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-disposition@0.5.2@content-disposition/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-disposition@0.5.2@content-disposition/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-type@1.0.4@content-type/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-type@1.0.4@content-type/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-type@1.0.4@content-type/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-type@1.0.4@content-type/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_content-type@1.0.4@content-type/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/node_modules/cookie" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/node_modules/cookie-signature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-parser@1.4.3@cookie-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-signature@1.0.6@cookie-signature/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-signature@1.0.6@cookie-signature/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-signature@1.0.6@cookie-signature/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-signature@1.0.6@cookie-signature/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie-signature@1.0.6@cookie-signature/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie@0.3.1@cookie/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie@0.3.1@cookie/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie@0.3.1@cookie/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie@0.3.1@cookie/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_cookie@0.3.1@cookie/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc16.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc16_ccitt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc16_kermit.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc16_modbus.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc16_xmodem.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc24.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc32.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc8.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/crc8_1wire.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/create_buffer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/define_crc.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_crc@3.4.4@crc/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/.coveralls.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/component.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/karma.conf.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/node_modules/ms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/src/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/src/debug.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/src/inspector-log.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_debug@2.6.9@debug/src/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/lib/browser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/lib/compat/callsite-tostring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/lib/compat/event-listener-count.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/lib/compat/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_depd@1.1.2@depd/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_destroy@1.0.4@destroy/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_destroy@1.0.4@destroy/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_destroy@1.0.4@destroy/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_destroy@1.0.4@destroy/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ee-first@1.1.1@ee-first/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ee-first@1.1.1@ee-first/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ee-first@1.1.1@ee-first/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ee-first@1.1.1@ee-first/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/Jakefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/ejs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/ejs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/lib/ejs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ejs@2.5.9@ejs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_encodeurl@1.0.2@encodeurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_encodeurl@1.0.2@encodeurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_encodeurl@1.0.2@encodeurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_encodeurl@1.0.2@encodeurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_encodeurl@1.0.2@encodeurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_escape-html@1.0.3@escape-html/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_escape-html@1.0.3@escape-html/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_escape-html@1.0.3@escape-html/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_escape-html@1.0.3@escape-html/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_etag@1.8.1@etag/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_etag@1.8.1@etag/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_etag@1.8.1@etag/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_etag@1.8.1@etag/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_etag@1.8.1@etag/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/cookie" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/cookie-signature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/on-headers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/parseurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/uid-safe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/node_modules/utils-merge" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/session/cookie.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/session/memory.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/session/session.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express-session@1.15.6@express-session/session/store.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/application.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/express.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/middleware/init.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/middleware/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/request.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/response.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/router/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/router/layer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/router/route.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/lib/view.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/accepts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/array-flatten" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/body-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/content-disposition" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/content-type" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/cookie" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/cookie-signature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/encodeurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/escape-html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/etag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/finalhandler" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/fresh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/merge-descriptors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/methods" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/parseurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/path-to-regexp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/proxy-addr" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/qs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/range-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/send" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/serve-static" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/setprototypeof" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/statuses" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/type-is" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/utils-merge" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/node_modules/vary" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_express@4.16.4@express/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/encodeurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/escape-html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/parseurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/statuses" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/node_modules/unpipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_finalhandler@1.1.1@finalhandler/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/file.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/incoming_form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/json_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/multipart_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/octet_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/lib/querystring_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_formidable@1.0.17@formidable/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_forwarded@0.1.2@forwarded/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_forwarded@0.1.2@forwarded/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_forwarded@0.1.2@forwarded/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_forwarded@0.1.2@forwarded/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_forwarded@0.1.2@forwarded/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_fresh@0.5.2@fresh/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_fresh@0.5.2@fresh/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_fresh@0.5.2@fresh/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_fresh@0.5.2@fresh/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_fresh@0.5.2@fresh/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/node_modules/inherits" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/node_modules/setprototypeof" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/node_modules/statuses" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_http-errors@1.6.3@http-errors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/Changelog.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/dbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/dbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/internal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/sbcs-codec.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/sbcs-data-generated.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/sbcs-data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/big5-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/cp936.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/cp949.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/cp950.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/eucjp.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/gb18030-ranges.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/gbk-added.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/tables/shiftjis.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/utf16.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/encodings/utf7.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/lib/bom-handling.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/lib/extend-node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/lib/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/lib/streams.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/node_modules/safer-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_iconv-lite@0.4.23@iconv-lite/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_inherits@2.0.3@inherits/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_inherits@2.0.3@inherits/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_inherits@2.0.3@inherits/inherits.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_inherits@2.0.3@inherits/inherits_browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_inherits@2.0.3@inherits/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ipaddr.js@1.8.0@ipaddr.js/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ipaddr.js@1.8.0@ipaddr.js/ipaddr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ipaddr.js@1.8.0@ipaddr.js/lib/ipaddr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ipaddr.js@1.8.0@ipaddr.js/lib/ipaddr.js.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ipaddr.js@1.8.0@ipaddr.js/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/binding.gyp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/Release/.deps/Release/obj.target/kerberos/lib/kerberos.o.d.raw" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/binding.Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/config.gypi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/gyp-mac-tool" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/build/kerberos.target.mk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/builderror.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/auth_processes/mongodb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/base64.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/base64.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberos.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberos.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberos_context.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberos_context.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberosgss.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/kerberosgss.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/sspi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/base64.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/base64.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/kerberos.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/kerberos.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/kerberos_sspi.c" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/kerberos_sspi.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/worker.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/worker.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer_descriptor.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer_descriptor.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_buffer_descriptor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_context.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_context.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_context.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_credentials.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_credentials.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/win32/wrappers/security_credentials.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/worker.cc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/lib/worker.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/node_modules/nan" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/test/kerberos_tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/test/kerberos_win32_test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/test/win32/security_buffer_descriptor_tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/test/win32/security_buffer_tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_kerberos@0.0.11@kerberos/test/win32/security_credentials_tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_media-typer@0.3.0@media-typer/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_media-typer@0.3.0@media-typer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_media-typer@0.3.0@media-typer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_media-typer@0.3.0@media-typer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_media-typer@0.3.0@media-typer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_memory-pager@1.1.0@memory-pager/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_merge-descriptors@1.0.1@merge-descriptors/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_merge-descriptors@1.0.1@merge-descriptors/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_merge-descriptors@1.0.1@merge-descriptors/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_merge-descriptors@1.0.1@merge-descriptors/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_merge-descriptors@1.0.1@merge-descriptors/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_methods@1.1.2@methods/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_methods@1.1.2@methods/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_methods@1.1.2@methods/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_methods@1.1.2@methods/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_methods@1.1.2@methods/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/db.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-db@1.36.0@mime-db/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/node_modules/mime-db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime-types@2.1.20@mime-types/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/build/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/build/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/cli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/mime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@1.4.1@mime/types.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/.eslintrc.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/.github/ISSUE_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/.github/PULL_REQUEST_TEMPLATE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/Mime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/cli.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/lite.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/src/README_js.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/src/build.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/src/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/types/other.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mime@2.3.1@mime/types/standard.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/defaultAuthProviders.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/gssapi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/mongocr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/plain.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/scram.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/sspi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/auth/x509.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/apm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/command_result.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/commands.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/connection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/logger.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/pool.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/connection/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/error.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/monitoring.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/server_description.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/server_selectors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/topology.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sdam/topology_description.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/sessions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/tools/smoke_plugin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/mongos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/read_preference.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/replset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/replset_state.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/topologies/shared.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/transactions.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/uri_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/wireprotocol/2_6_support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/wireprotocol/3_2_support.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/wireprotocol/compression.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/lib/wireprotocol/shared.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/node_modules/bson" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/node_modules/require_optional" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/node_modules/saslprep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb-core@3.1.7@mongodb-core/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/HISTORY" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/admin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/aggregation_cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_cr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_gssapi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_plain.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_scram.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_sspi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/auth/mongodb_x509.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/aggregation.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/batch/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/batch/ordered.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/batch/unordered.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/commands.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/core.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/geo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/query.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/collection/shared.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/command_cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/base_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/db_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/delete_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/get_more_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/insert_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/kill_cursor_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/query_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/commands/update_command.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/base.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/connection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/connection_pool.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/connection_utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/mongos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/read_preference.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/ha.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/options.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/repl_set.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/repl_set_state.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/strategies/ping_strategy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/repl_set/strategies/statistics_strategy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/server_capabilities.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/connection/url_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/cursorstream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/db.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/gridfs/chunk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/gridfs/grid.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/gridfs/gridstore.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/gridfs/readstream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/mongo_client.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/responses/mongo_reply.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/scope.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/lib/mongodb/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/node_modules/bson" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/node_modules/kerberos" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/node_modules/readable-stream" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/repo_node_418.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/wercker.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/admin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/aggregation_cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/apm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/authenticate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/bulk/common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/bulk/ordered.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/bulk/unordered.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/change_stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/collection.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/command_cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/cursor.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/db.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/error.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/gridfs-stream/download.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/gridfs-stream/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/gridfs-stream/upload.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/gridfs/chunk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/gridfs/grid_store.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/mongo_client.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/operations/admin_ops.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/operations/collection_ops.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/operations/cursor_ops.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/operations/db_ops.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/operations/mongo_client_ops.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/topologies/mongos.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/topologies/replset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/topologies/server.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/topologies/topology_base.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/url_parser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/node_modules/mongodb-core" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@3.1.8@mongodb/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/node_modules/basic-auth" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/node_modules/on-headers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_morgan@1.9.1@morgan/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ms@2.0.0@ms/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ms@2.0.0@ms/license.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ms@2.0.0@ms/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_ms@2.0.0@ms/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/.dntrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/LICENSE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/appveyor.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/include_dirs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/nan.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/nan_implementation_12_inl.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/nan_implementation_pre_12_inl.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/nan_new.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/nan_string_bytes.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_nan@1.8.4@nan/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/lib/charset.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/lib/encoding.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/lib/language.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/lib/mediaType.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_negotiator@0.6.1@negotiator/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/node_modules/ee-first" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-finished@2.3.0@on-finished/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-headers@1.0.1@on-headers/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-headers@1.0.1@on-headers/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-headers@1.0.1@on-headers/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-headers@1.0.1@on-headers/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_on-headers@1.0.1@on-headers/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_parseurl@1.3.2@parseurl/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_parseurl@1.3.2@parseurl/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_parseurl@1.3.2@parseurl/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_parseurl@1.3.2@parseurl/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_parseurl@1.3.2@parseurl/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_path-to-regexp@0.1.7@path-to-regexp/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_path-to-regexp@0.1.7@path-to-regexp/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_path-to-regexp@0.1.7@path-to-regexp/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_path-to-regexp@0.1.7@path-to-regexp/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_path-to-regexp@0.1.7@path-to-regexp/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/node_modules/forwarded" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/node_modules/ipaddr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_proxy-addr@2.0.4@proxy-addr/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/.eslintignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/dist/qs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/lib/formats.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/lib/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/lib/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/lib/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/lib/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/test/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/test/parse.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/test/stringify.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_qs@6.5.2@qs/test/utils.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_random-bytes@1.0.0@random-bytes/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_random-bytes@1.0.0@random-bytes/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_random-bytes@1.0.0@random-bytes/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_random-bytes@1.0.0@random-bytes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_random-bytes@1.0.0@random-bytes/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_range-parser@1.2.0@range-parser/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_range-parser@1.2.0@range-parser/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_range-parser@1.2.0@range-parser/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_range-parser@1.2.0@range-parser/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_range-parser@1.2.0@range-parser/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/node_modules/bytes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/node_modules/http-errors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/node_modules/iconv-lite" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/node_modules/unpipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_raw-body@2.3.3@raw-body/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/.airtap.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/.airtaprc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/CONTRIBUTING.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/GOVERNANCE.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/errors-browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/errors.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/experimentalWarning.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/_stream_duplex.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/_stream_passthrough.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/_stream_readable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/_stream_transform.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/_stream_writable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/async_iterator.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/buffer_list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/destroy.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/end-of-stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/pipeline.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/state.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/stream-browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/lib/internal/streams/stream.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/node_modules/inherits" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/node_modules/string_decoder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/node_modules/util-deprecate" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/readable-browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_readable-stream@3.0.6@readable-stream/readable.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/node_modules/.bin/semver" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/node_modules/resolve-from" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/node_modules/semver" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/test/nestedTest/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/test/nestedTest/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_require_optional@1.0.1@require_optional/test/require_optional_tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_resolve-from@2.0.0@resolve-from/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_resolve-from@2.0.0@resolve-from/license" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_resolve-from@2.0.0@resolve-from/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_resolve-from@2.0.0@resolve-from/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safe-buffer@5.1.2@safe-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safe-buffer@5.1.2@safe-buffer/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safe-buffer@5.1.2@safe-buffer/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safe-buffer@5.1.2@safe-buffer/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safe-buffer@5.1.2@safe-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/Porting-Buffer.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/Readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/dangerous.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/safer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_safer-buffer@2.1.2@safer-buffer/tests.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/.gitattributes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/code-points.mem" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/generate-code-points.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/lib/code-points.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/lib/memory-code-points.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/lib/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/node_modules/sparse-bitfield" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/test/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_saslprep@1.0.2@saslprep/test/util.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/bin/semver" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/range.bnf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_semver@5.6.0@semver/semver.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/.bin/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/destroy" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/encodeurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/escape-html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/etag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/fresh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/http-errors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/ms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/range-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/node_modules/statuses" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_send@0.16.2@send/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/node_modules/encodeurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/node_modules/escape-html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/node_modules/parseurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/node_modules/send" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_serve-static@1.13.2@serve-static/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_setprototypeof@1.1.0@setprototypeof/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_setprototypeof@1.1.0@setprototypeof/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_setprototypeof@1.1.0@setprototypeof/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_setprototypeof@1.1.0@setprototypeof/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_setprototypeof@1.1.0@setprototypeof/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/node_modules/memory-pager" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_sparse-bitfield@3.0.3@sparse-bitfield/test.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/codes.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.4.0@statuses/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/codes.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_statuses@1.5.0@statuses/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/.travis.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/lib/string_decoder.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_string_decoder@1.1.1@string_decoder/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/node_modules/media-typer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/node_modules/mime-types" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_type-is@1.6.16@type-is/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/node_modules/random-bytes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_uid-safe@2.1.5@uid-safe/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_unpipe@1.0.0@unpipe/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_unpipe@1.0.0@unpipe/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_unpipe@1.0.0@unpipe/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_unpipe@1.0.0@unpipe/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_unpipe@1.0.0@unpipe/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/History.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/browser.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/node.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_util-deprecate@1.0.2@util-deprecate/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_utils-merge@1.0.1@utils-merge/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_utils-merge@1.0.1@utils-merge/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_utils-merge@1.0.1@utils-merge/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_utils-merge@1.0.1@utils-merge/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_utils-merge@1.0.1@utils-merge/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_vary@1.1.2@vary/HISTORY.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_vary@1.1.2@vary/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_vary@1.1.2@vary/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_vary@1.1.2@vary/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/_vary@1.1.2@vary/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/accepts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/array-flatten" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/basic-auth" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/body-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/bson" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/bytes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/connect" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/connect-mongodb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/content-disposition" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/content-type" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/cookie" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/cookie-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/cookie-signature" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/crc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/debug" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/depd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/destroy" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/ee-first" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/ejs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/encodeurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/escape-html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/etag" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/express" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/express-session" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/finalhandler" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/formidable" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/forwarded" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/fresh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/http-errors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/iconv-lite" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/inherits" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/ipaddr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/kerberos" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/media-typer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/memory-pager" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/merge-descriptors" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/methods" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/mime" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/mime-db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/mime-types" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/mongodb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/mongodb-core" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/morgan" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/ms" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/nan" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/negotiator" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/on-finished" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/on-headers" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/parseurl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/path-to-regexp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/proxy-addr" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/qs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/random-bytes" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/range-parser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/raw-body" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/readable-stream" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/require_optional" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/resolve-from" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/safe-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/safer-buffer" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/saslprep" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/semver" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/send" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/serve-static" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/setprototypeof" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/sparse-bitfield" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/statuses" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/string_decoder" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/type-is" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/uid-safe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/unpipe" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/util-deprecate" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/utils-merge" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/node_modules/vary" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/public/stylesheets/crop_feature.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/routes/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ser/views/LoginPage.html" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="$PROJECT_DIR$/server/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" afterPath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" />
-      <change beforePath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
-      <change beforePath="$PROJECT_DIR$/server/views/LoginPage.html" afterPath="$PROJECT_DIR$/server/views/LoginPage.html" />
-      <change beforePath="$PROJECT_DIR$/server/views/PicsEditingPage.html" afterPath="$PROJECT_DIR$/server/views/PicsEditingPage.html" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/QQ.png" afterPath="$PROJECT_DIR$/server/public/images/icon/QQ.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/取消.png" afterPath="$PROJECT_DIR$/server/public/images/icon/取消.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/导出.png" afterPath="$PROJECT_DIR$/server/public/images/icon/导出.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/微信.png" afterPath="$PROJECT_DIR$/server/public/images/icon/微信.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/微博.png" afterPath="$PROJECT_DIR$/server/public/images/icon/微博.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/放大.png" afterPath="$PROJECT_DIR$/server/public/images/icon/放大.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/确认.png" afterPath="$PROJECT_DIR$/server/public/images/icon/确认.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/缩小.png" afterPath="$PROJECT_DIR$/server/public/images/icon/缩小.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/裁剪.png" afterPath="$PROJECT_DIR$/server/public/images/icon/裁剪.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/逆时针旋转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/逆时针旋转.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/逆转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/逆转.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/顺时针旋转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/顺时针旋转.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/顺转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/顺转.png" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/Inception.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/Inception.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/Nolan.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/Nolan.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/batmanbegins.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/batmanbegins.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight.jpeg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight.jpeg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight2.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight3.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight3.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight4.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight4.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight5.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight5.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknightrise.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknightrise.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk.jpeg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk.jpeg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk2.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/following.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/following.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/insomnia.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/insomnia.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller2.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/memento.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/memento.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/prestige.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/prestige.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/assets/user_avatar.jpg" afterPath="$PROJECT_DIR$/server/public/images/user_avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/EditPic.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/connectPic.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/cropper.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/cropper.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/jquery-3.3.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/js/movieList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/button.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/button.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/crop_feature.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/crop_feature.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/cropper.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/cropper.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/director_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/director_page.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/edit_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/edit_page.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/footer.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/footer.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/header.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/header.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/login_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/login_page.css" />
-      <change beforePath="$PROJECT_DIR$/server/views/style/pic-connect.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/pic-connect.css" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/bin/www" afterPath="$PROJECT_DIR$/ser/bin/www" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" afterPath="$PROJECT_DIR$/ser/package.json" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/QQ.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/QQ.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/取消.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/取消.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/导出.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/导出.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/微信.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/微信.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/微博.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/微博.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/放大.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/放大.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/确认.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/确认.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/缩小.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/缩小.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/裁剪.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/裁剪.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/逆时针旋转.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/逆时针旋转.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/逆转.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/逆转.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/顺时针旋转.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/顺时针旋转.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/icon/顺转.png" afterPath="$PROJECT_DIR$/ser/public/images/icon/顺转.png" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/Inception.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/Inception.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/Nolan.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/Nolan.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/batmanbegins.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/batmanbegins.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight.jpeg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknight.jpeg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight2.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknight2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight3.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknight3.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight4.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknight4.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight5.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknight5.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/darkknightrise.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/darkknightrise.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk.jpeg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/dunkirk.jpeg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk2.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/dunkirk2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/following.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/following.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/insomnia.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/insomnia.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/intersteller.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller2.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/intersteller2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/memento.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/memento.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/movie_pic/prestige.jpg" afterPath="$PROJECT_DIR$/ser/public/images/movie_pic/prestige.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/images/user_avatar.jpg" afterPath="$PROJECT_DIR$/ser/public/images/user_avatar.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/EditPic.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/EditPic.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/connectPic.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/connectPic.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/cropper.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/cropper.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/cropper.min.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/cropper.min.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/jquery-3.3.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/javascripts/movieList.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/movieList.js" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/button.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/button.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/crop_feature.css" afterPath="$PROJECT_DIR$/ser/node_modules/_mongodb@1.4.40@mongodb/.gitmodules" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/cropper.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/cropper.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/director_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/director_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/edit_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/edit_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/footer.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/footer.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/header.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/header.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/login_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/login_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/pic-connect.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/pic-connect.css" />
+      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/style.css" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" afterPath="$PROJECT_DIR$/ser/routes/users.js" />
+      <change beforePath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" afterPath="$PROJECT_DIR$/ser/views/ChooseConnectPicsPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/LoginPage.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/PicsEditingPage.html" afterPath="$PROJECT_DIR$/ser/views/PicsEditingPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/index.html" afterPath="$PROJECT_DIR$/ser/views/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,31 +1198,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/app.js">
+        <entry file="file://$PROJECT_DIR$/ser/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="45">
+              <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/routes/users.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="180">
+              <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/routes/index.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="15">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -115,8 +1244,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -163,18 +1292,21 @@
         <option value="$PROJECT_DIR$/js/model/user.js" />
         <option value="$PROJECT_DIR$/js/router/index.js" />
         <option value="$PROJECT_DIR$/js/server/server.js" />
-        <option value="$PROJECT_DIR$/ser/app.js" />
         <option value="$PROJECT_DIR$/server/routes/users.js" />
-        <option value="$PROJECT_DIR$/server/app.js" />
         <option value="$PROJECT_DIR$/server/views/index.html" />
         <option value="$PROJECT_DIR$/server/views/js/movieList.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/server/routes/index.js" />
         <option value="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
-        <option value="$PROJECT_DIR$/server/views/LoginPage.html" />
         <option value="$PROJECT_DIR$/server/views/PicsEditingPage.html" />
         <option value="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" />
         <option value="$PROJECT_DIR$/server/public/javascripts/movieList.js" />
+        <option value="$PROJECT_DIR$/server/database/setting.js" />
+        <option value="$PROJECT_DIR$/server/database/msession.js" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/routes/index.js" />
+        <option value="$PROJECT_DIR$/server/views/LoginPage.html" />
+        <option value="$PROJECT_DIR$/ser/package.json" />
+        <option value="$PROJECT_DIR$/ser/app.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -193,11 +1325,15 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/ser/node_modules" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/ser/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="155" />
+    <option name="x" value="720" />
     <option name="y" value="22" />
-    <option name="width" value="1285" />
+    <option name="width" value="720" />
     <option name="height" value="824" />
   </component>
   <component name="ProjectView">
@@ -215,6 +1351,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,22 +1365,30 @@
             <path>
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,42 +1529,44 @@
       <workItem from="1537860369942" duration="15350000" />
       <workItem from="1539055597920" duration="5767000" />
       <workItem from="1539134183496" duration="46840000" />
-      <workItem from="1539742562538" duration="6311000" />
+      <workItem from="1539742562538" duration="8985000" />
+      <workItem from="1539761365662" duration="1549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74268000" />
+    <option name="totallyTimeSpent" value="78491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="155" y="22" width="1285" height="824" extended-state="0" />
+    <frame x="720" y="22" width="720" height="824" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13596138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07663783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21386431" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07663783" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49007446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -448,13 +1598,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/public/javascripts/EditPic.js</url>
+          <url>file://$PROJECT_DIR$/ser/public/javascripts/EditPic.js</url>
           <line>10</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/views/js/router/index.js</url>
+          <url>file://$PROJECT_DIR$/ser/views/js/router/index.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -463,226 +1612,165 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/DirectorDetailPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/header.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/movieList.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/movieList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
-          <folding>
-            <marker date="1539757255998" expanded="true" signature="2910:2923" ph="..." />
-            <marker date="1539757255998" expanded="true" signature="2948:2984" ph="..." />
-            <marker date="1539757255998" expanded="true" signature="3086:3182" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/edit_page.css">
+    <entry file="file://$PROJECT_DIR$/server/views/js/server/server.js" />
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/edit_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/PicsEditingPage.html">
+    <entry file="file://$PROJECT_DIR$/ser/views/PicsEditingPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/RotatePic.js" />
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/footer.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/login_page.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/login_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
+    <entry file="file://$PROJECT_DIR$/ser/views/LoginPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight.jpeg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/darkknight.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknightrise.jpg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/darkknightrise.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight2.jpg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/darkknight2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight3.jpg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/darkknight3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight4.jpg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/darkknight4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/login_page.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/login_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/jquery-3.3.1.min.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/cropper.min.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/cropper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/crop_feature.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/crop_feature.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/cropper.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/cropper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/cropper.html" />
     <entry file="file://$PROJECT_DIR$/js/RotatePic.js" />
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/cropper.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/cropper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/footer.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/batmanbegins.jpg">
+    <entry file="file://$PROJECT_DIR$/ser/public/images/movie_pic/batmanbegins.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/pic-connect.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/pic-connect.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/connectPic.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/connectPic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/director_page.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/director_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/EditPic.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/EditPic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1506">
           <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
@@ -690,66 +1778,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/edit_page.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/edit_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/header.css">
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/model/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/button.css">
+    <entry file="file://$PROJECT_DIR$/server/views/js/model/user.js" />
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/router/index.js">
+    <entry file="file://$PROJECT_DIR$/server/views/js/router/index.js" />
+    <entry file="file://$PROJECT_DIR$/server/views/js/server/server.js" />
+    <entry file="file://$PROJECT_DIR$/server/views/index.ejs" />
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/server/server.js">
+    <entry file="file://$PROJECT_DIR$/ser/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/ser/views/PicsEditingPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1395">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/users.js">
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/movieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/DirectorDetailPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/ChooseConnectPicsPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/database/setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/database/msession.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/LoginPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" column="35" lean-forward="false" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" lean-forward="true" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -757,97 +1904,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/PicsEditingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/public/javascripts/movieList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <marker date="1539757255998" expanded="true" signature="2910:2923" ph="..." />
-            <marker date="1539757255998" expanded="true" signature="2948:2984" ph="..." />
-            <marker date="1539757255998" expanded="true" signature="3086:3182" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/DirectorDetailPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
