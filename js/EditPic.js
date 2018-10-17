@@ -4,6 +4,10 @@ var editButtons = document.getElementById("edit-buttons");
 var operationButtons = document.getElementById("operation-buttons");
 var scaleCount = 0;
 
+var url = decodeURI(window.location.href);
+var picUrl = url.split("?url=")[1];
+$('#curImg').attr('src', picUrl);
+
 function editInitial() {
     $('#curImg').cropper({
         viewMode: 1,
@@ -106,4 +110,12 @@ function enlarge() {
 function shrink() {
     $('#curImg').cropper('zoom', -1);
     scaleCount -= 1;
+}
+
+function toCenter() {
+    window.location.href = "../html/DirectorDetailPage.html"
+}
+
+function toConnectPage() {
+    window.location.href = "../html/ChooseConnectPicsPage.html"
 }

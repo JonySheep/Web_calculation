@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/movieList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/ChooseConnectPicsPage.html" afterPath="$PROJECT_DIR$/html/ChooseConnectPicsPage.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/html/DirectorDetailPage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/connectPic.js" afterPath="$PROJECT_DIR$/js/connectPic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/PicsEditingPage.html" afterPath="$PROJECT_DIR$/html/PicsEditingPage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/EditPic.js" afterPath="$PROJECT_DIR$/js/EditPic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/movieList.js" afterPath="$PROJECT_DIR$/js/movieList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/edit_page.css" afterPath="$PROJECT_DIR$/style/edit_page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/header.css" afterPath="$PROJECT_DIR$/style/header.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,6 +22,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="edit_page.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/style/edit_page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="button.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/button.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,34 +42,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connectPic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/connectPic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1755">
-              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pic-connect.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/pic-connect.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectorDetailPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DirectorDetailPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/DirectorDetailPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="75">
+              <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
               <folding>
-                <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/style/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -65,23 +71,13 @@
       <file leaf-file-name="movieList.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/movieList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="1155">
+              <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
               <folding>
-                <marker date="1539703735037" expanded="true" signature="2929:2942" ph="..." />
-                <marker date="1539703735037" expanded="true" signature="2967:3003" ph="..." />
-                <marker date="1539703735037" expanded="true" signature="3105:3201" ph="..." />
+                <marker date="1539736893539" expanded="true" signature="2916:2929" ph="..." />
+                <marker date="1539736893539" expanded="true" signature="2954:2990" ph="..." />
+                <marker date="1539736893539" expanded="true" signature="3092:3188" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="director_page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/director_page.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,18 +114,18 @@
         <option value="$PROJECT_DIR$/html/cropper.html" />
         <option value="$PROJECT_DIR$/.gitingnore" />
         <option value="$PROJECT_DIR$/js/CropPic.js" />
-        <option value="$PROJECT_DIR$/js/EditPic.js" />
         <option value="$PROJECT_DIR$/style/button.css" />
-        <option value="$PROJECT_DIR$/style/header.css" />
-        <option value="$PROJECT_DIR$/style/edit_page.css" />
-        <option value="$PROJECT_DIR$/html/PicsEditingPage.html" />
         <option value="$PROJECT_DIR$/style/footer.css" />
         <option value="$PROJECT_DIR$/style/pic-connect.css" />
         <option value="$PROJECT_DIR$/js/connectPic.js" />
-        <option value="$PROJECT_DIR$/html/ChooseConnectPicsPage.html" />
         <option value="$PROJECT_DIR$/style/director_page.css" />
+        <option value="$PROJECT_DIR$/style/edit_page.css" />
+        <option value="$PROJECT_DIR$/js/EditPic.js" />
+        <option value="$PROJECT_DIR$/html/PicsEditingPage.html" />
+        <option value="$PROJECT_DIR$/html/ChooseConnectPicsPage.html" />
         <option value="$PROJECT_DIR$/js/movieList.js" />
         <option value="$PROJECT_DIR$/html/DirectorDetailPage.html" />
+        <option value="$PROJECT_DIR$/style/header.css" />
       </list>
     </option>
   </component>
@@ -262,12 +258,12 @@
       <updated>1537860367546</updated>
       <workItem from="1537860369942" duration="15350000" />
       <workItem from="1539055597920" duration="5767000" />
-      <workItem from="1539134183496" duration="43657000" />
+      <workItem from="1539134183496" duration="45417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64774000" />
+    <option name="totallyTimeSpent" value="66534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="589" y="22" width="851" height="824" extended-state="0" />
@@ -320,7 +316,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/EditPic.js</url>
-          <line>6</line>
+          <line>10</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -516,38 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/EditPic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/edit_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/PicsEditingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -559,29 +523,6 @@
     <entry file="file://$PROJECT_DIR$/assets/movie_pic/batmanbegins.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/ChooseConnectPicsPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/button.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/pic-connect.css">
@@ -608,25 +549,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/movieList.js">
+    <entry file="file://$PROJECT_DIR$/js/EditPic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="1506">
+          <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/ChooseConnectPicsPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <marker date="1539703735037" expanded="true" signature="2929:2942" ph="..." />
-            <marker date="1539703735037" expanded="true" signature="2967:3003" ph="..." />
-            <marker date="1539703735037" expanded="true" signature="3105:3201" ph="..." />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/PicsEditingPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/edit_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/DirectorDetailPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="75">
+          <caret line="5" column="79" lean-forward="true" selection-start-line="5" selection-start-column="79" selection-end-line="5" selection-end-column="79" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/button.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/movieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="19" lean-forward="true" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+          <folding>
+            <marker date="1539736893539" expanded="true" signature="2916:2929" ph="..." />
+            <marker date="1539736893539" expanded="true" signature="2954:2990" ph="..." />
+            <marker date="1539736893539" expanded="true" signature="3092:3188" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

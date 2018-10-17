@@ -17,3 +17,10 @@
     float: left;
     font-size: 13px;
 }
+.user-avatar {
+    border-radius: 200px;
+    border: #e0e0e0 1px solid;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}

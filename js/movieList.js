@@ -82,17 +82,22 @@ var movie_list = [
 ]
 
 for(var i = 0; i< movie_list.length; i++) {
-    $('#pic-list').append("<li id='" + i +"'><div class='movie_detail_container'>" +
+    $('#pic-list').append("<li ><div class='movie_detail_container'>" +
         "<img src='" + movie_list[i].pic_src + "' width='240' height='290'>" +
         "<p class='movie_name'>《 " + movie_list[i].moive_eng_name + "》</p>" +
         "<p>" + movie_list[i].moive_chi_name + "(" + movie_list[i].year + ")</p>" +
         "<div style='display: flex'>" +
         "<a style='margin-left: 50px;margin-right: 10px' href='" + movie_list[i].imdbUrl +"'>IMDB：" + movie_list[i].mark +"/10.0</a>" +
         "<div style='height: 20px;width: 20px;border: black 1px solid;border-radius: 3px;padding: 3px;cursor: pointer'>" +
-        "<img src='../assets/icon/导出.png' width='20' onclick='toEdit(id)'></div></div>" +
+        "<img id='" + i +"' src='../assets/icon/导出.png' width='20' onclick='toEdit(id)'></div></div>" +
         "</div></li>")
 }
 
 function toEdit(id) {
-    window.location.href = "./PicsEditingPage.html";
+    console.log(id);
+    window.location.href = encodeURI("../html/PicsEditingPage.html?url=" + movie_list[id].pic_src);
+}
+
+function Logout() {
+    window.location.href = "../html/LoginPage.html";
 }
