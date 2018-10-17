@@ -113,9 +113,9 @@ function shrink() {
 }
 
 function toCenter() {
-    window.location.href = "../DirectorDetailPage.html"
+    window.location.href = "../../views/DirectorDetailPage.html"
 }
 
 function toConnectPage() {
-    window.location.href = "../ChooseConnectPicsPage.html"
+    window.location.href = "../../views/ChooseConnectPicsPage.html"
 }

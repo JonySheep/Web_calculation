@@ -2,59 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/server/views/index.html" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/QQ.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/QQ.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/取消.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/取消.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/导出.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/导出.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/微信.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/微信.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/微博.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/微博.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/放大.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/放大.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/确认.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/确认.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/缩小.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/缩小.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/裁剪.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/裁剪.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/逆时针旋转.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/逆时针旋转.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/逆转.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/逆转.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/顺时针旋转.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/顺时针旋转.png" />
-      <change beforePath="$PROJECT_DIR$/assets/icon/顺转.png" afterPath="$PROJECT_DIR$/server/views/assets/icon/顺转.png" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/Inception.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/Inception.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/Nolan.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/Nolan.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/batmanbegins.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/batmanbegins.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknight.jpeg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknight2.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight2.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknight3.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight3.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknight4.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight4.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknight5.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight5.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/darkknightrise.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknightrise.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/dunkirk.jpeg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk.jpeg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/dunkirk2.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk2.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/following.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/following.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/insomnia.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/insomnia.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/intersteller.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/intersteller2.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller2.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/memento.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/memento.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/movie_pic/prestige.jpg" afterPath="$PROJECT_DIR$/server/views/assets/movie_pic/prestige.jpg" />
-      <change beforePath="$PROJECT_DIR$/assets/user_avatar.jpg" afterPath="$PROJECT_DIR$/server/views/assets/user_avatar.jpg" />
-      <change beforePath="$PROJECT_DIR$/html/ChooseConnectPicsPage.html" afterPath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" />
-      <change beforePath="$PROJECT_DIR$/html/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
-      <change beforePath="$PROJECT_DIR$/html/LoginPage.html" afterPath="$PROJECT_DIR$/server/views/LoginPage.html" />
-      <change beforePath="$PROJECT_DIR$/html/PicsEditingPage.html" afterPath="$PROJECT_DIR$/server/views/PicsEditingPage.html" />
-      <change beforePath="$PROJECT_DIR$/js/EditPic.js" afterPath="$PROJECT_DIR$/server/views/js/EditPic.js" />
-      <change beforePath="$PROJECT_DIR$/js/connectPic.js" afterPath="$PROJECT_DIR$/server/views/js/connectPic.js" />
-      <change beforePath="$PROJECT_DIR$/js/cropper.js" afterPath="$PROJECT_DIR$/server/views/js/cropper.js" />
-      <change beforePath="$PROJECT_DIR$/js/cropper.min.js" afterPath="$PROJECT_DIR$/server/views/js/cropper.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/jquery-3.3.1.min.js" afterPath="$PROJECT_DIR$/server/views/js/jquery-3.3.1.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/movieList.js" afterPath="$PROJECT_DIR$/server/views/js/movieList.js" />
-      <change beforePath="$PROJECT_DIR$/style/button.css" afterPath="$PROJECT_DIR$/server/views/style/button.css" />
-      <change beforePath="$PROJECT_DIR$/style/crop_feature.css" afterPath="$PROJECT_DIR$/server/views/style/crop_feature.css" />
-      <change beforePath="$PROJECT_DIR$/style/cropper.css" afterPath="$PROJECT_DIR$/server/views/style/cropper.css" />
-      <change beforePath="$PROJECT_DIR$/style/director_page.css" afterPath="$PROJECT_DIR$/server/views/style/director_page.css" />
-      <change beforePath="$PROJECT_DIR$/style/edit_page.css" afterPath="$PROJECT_DIR$/server/views/style/edit_page.css" />
-      <change beforePath="$PROJECT_DIR$/style/footer.css" afterPath="$PROJECT_DIR$/server/views/style/footer.css" />
-      <change beforePath="$PROJECT_DIR$/style/header.css" afterPath="$PROJECT_DIR$/server/views/style/header.css" />
-      <change beforePath="$PROJECT_DIR$/style/login_page.css" afterPath="$PROJECT_DIR$/server/views/style/login_page.css" />
-      <change beforePath="$PROJECT_DIR$/style/pic-connect.css" afterPath="$PROJECT_DIR$/server/views/style/pic-connect.css" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" afterPath="$PROJECT_DIR$/server/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" afterPath="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/LoginPage.html" afterPath="$PROJECT_DIR$/server/views/LoginPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/PicsEditingPage.html" afterPath="$PROJECT_DIR$/server/views/PicsEditingPage.html" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/QQ.png" afterPath="$PROJECT_DIR$/server/public/images/icon/QQ.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/取消.png" afterPath="$PROJECT_DIR$/server/public/images/icon/取消.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/导出.png" afterPath="$PROJECT_DIR$/server/public/images/icon/导出.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/微信.png" afterPath="$PROJECT_DIR$/server/public/images/icon/微信.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/微博.png" afterPath="$PROJECT_DIR$/server/public/images/icon/微博.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/放大.png" afterPath="$PROJECT_DIR$/server/public/images/icon/放大.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/确认.png" afterPath="$PROJECT_DIR$/server/public/images/icon/确认.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/缩小.png" afterPath="$PROJECT_DIR$/server/public/images/icon/缩小.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/裁剪.png" afterPath="$PROJECT_DIR$/server/public/images/icon/裁剪.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/逆时针旋转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/逆时针旋转.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/逆转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/逆转.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/顺时针旋转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/顺时针旋转.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/icon/顺转.png" afterPath="$PROJECT_DIR$/server/public/images/icon/顺转.png" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/Inception.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/Inception.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/Nolan.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/Nolan.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/batmanbegins.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/batmanbegins.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight.jpeg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight.jpeg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight3.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight3.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight4.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight4.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknight5.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknight5.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/darkknightrise.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/darkknightrise.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk.jpeg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk.jpeg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/dunkirk2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/dunkirk2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/following.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/following.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/insomnia.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/insomnia.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/intersteller2.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/intersteller2.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/memento.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/memento.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/movie_pic/prestige.jpg" afterPath="$PROJECT_DIR$/server/public/images/movie_pic/prestige.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/assets/user_avatar.jpg" afterPath="$PROJECT_DIR$/server/public/images/user_avatar.jpg" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/EditPic.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/connectPic.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/cropper.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/cropper.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/jquery-3.3.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/js/movieList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/button.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/button.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/crop_feature.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/crop_feature.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/cropper.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/cropper.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/director_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/director_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/edit_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/edit_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/footer.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/footer.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/header.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/header.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/login_page.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/login_page.css" />
+      <change beforePath="$PROJECT_DIR$/server/views/style/pic-connect.css" afterPath="$PROJECT_DIR$/server/public/stylesheets/pic-connect.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -83,8 +82,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="97">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -100,45 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DirectorDetailPage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/views/DirectorDetailPage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movieList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/views/js/movieList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-128">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <marker date="1539747782074" expanded="true" signature="2900:2913" ph="..." />
-                <marker date="1539747782074" expanded="true" signature="2938:2974" ph="..." />
-                <marker date="1539747782074" expanded="true" signature="3076:3172" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -159,6 +124,7 @@
     <findStrings>
       <find>_</find>
       <find>../</find>
+      <find>assets</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -202,9 +168,13 @@
         <option value="$PROJECT_DIR$/server/app.js" />
         <option value="$PROJECT_DIR$/server/views/index.html" />
         <option value="$PROJECT_DIR$/server/views/js/movieList.js" />
-        <option value="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
-        <option value="$PROJECT_DIR$/server/routes/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/routes/index.js" />
+        <option value="$PROJECT_DIR$/server/views/DirectorDetailPage.html" />
+        <option value="$PROJECT_DIR$/server/views/LoginPage.html" />
+        <option value="$PROJECT_DIR$/server/views/PicsEditingPage.html" />
+        <option value="$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html" />
+        <option value="$PROJECT_DIR$/server/public/javascripts/movieList.js" />
       </list>
     </option>
   </component>
@@ -225,9 +195,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="720" />
+    <option name="x" value="155" />
     <option name="y" value="22" />
-    <option name="width" value="720" />
+    <option name="width" value="1285" />
     <option name="height" value="824" />
   </component>
   <component name="ProjectView">
@@ -261,20 +231,7 @@
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
               <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,6 +257,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/public/images" />
+      <recent name="$PROJECT_DIR$/server/public/javascripts" />
+      <recent name="$PROJECT_DIR$/server/public/stylesheets" />
       <recent name="$PROJECT_DIR$/server/views" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -421,16 +381,15 @@
       <workItem from="1537860369942" duration="15350000" />
       <workItem from="1539055597920" duration="5767000" />
       <workItem from="1539134183496" duration="46840000" />
-      <workItem from="1539742562538" duration="5119000" />
+      <workItem from="1539742562538" duration="6311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73076000" />
+    <option name="totallyTimeSpent" value="74268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="22" width="720" height="824" extended-state="0" />
-    <editor active="true" />
+    <frame x="155" y="22" width="1285" height="824" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -444,7 +403,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926254" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13596138" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07663783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,7 +448,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/views/js/EditPic.js</url>
+          <url>file://$PROJECT_DIR$/server/public/javascripts/EditPic.js</url>
           <line>10</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -498,36 +457,23 @@
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/server/routes/index.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/views/style/edit_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/button.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
@@ -540,16 +486,16 @@
         <state relative-caret-position="645">
           <caret line="43" column="14" lean-forward="false" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/header.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
@@ -557,14 +503,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/movieList.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/movieList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="19" lean-forward="false" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
           <folding>
-            <marker date="1539747782074" expanded="true" signature="2900:2913" ph="..." />
-            <marker date="1539747782074" expanded="true" signature="2938:2974" ph="..." />
-            <marker date="1539747782074" expanded="true" signature="3076:3172" ph="..." />
+            <marker date="1539757255998" expanded="true" signature="2910:2923" ph="..." />
+            <marker date="1539757255998" expanded="true" signature="2948:2984" ph="..." />
+            <marker date="1539757255998" expanded="true" signature="3086:3182" ph="..." />
           </folding>
         </state>
       </provider>
@@ -577,7 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/edit_page.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/edit_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
@@ -590,20 +536,21 @@
         <state relative-caret-position="210">
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/RotatePic.js" />
-    <entry file="file://$PROJECT_DIR$/server/views/style/footer.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/login_page.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/login_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -616,37 +563,37 @@
         <state relative-caret-position="540">
           <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/darkknight.jpeg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight.jpeg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/darkknightrise.jpg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknightrise.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/darkknight2.jpg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/darkknight3.jpg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/darkknight4.jpg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/darkknight4.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/login_page.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/login_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
@@ -656,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.min.js" />
     <entry file="file://$PROJECT_DIR$/js/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/server/views/js/jquery-3.3.1.min.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -664,7 +611,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/cropper.min.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/cropper.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="15" lean-forward="true" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
@@ -672,14 +619,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/crop_feature.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/crop_feature.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/cropper.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/cropper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
@@ -689,26 +637,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/cropper.html" />
     <entry file="file://$PROJECT_DIR$/js/RotatePic.js" />
-    <entry file="file://$PROJECT_DIR$/server/views/style/cropper.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/cropper.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/footer.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/footer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/assets/movie_pic/batmanbegins.jpg">
+    <entry file="file://$PROJECT_DIR$/server/public/images/movie_pic/batmanbegins.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/pic-connect.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/pic-connect.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
@@ -716,7 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/connectPic.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/connectPic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
@@ -724,7 +674,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/director_page.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/director_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
@@ -732,7 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/EditPic.js">
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/EditPic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1506">
           <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
@@ -740,17 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/PicsEditingPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/edit_page.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/edit_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
@@ -758,21 +698,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/header.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,7 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/style/button.css">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
@@ -816,14 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -832,34 +754,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="19" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/js/movieList.js">
+    <entry file="file://$PROJECT_DIR$/server/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <marker date="1539747782074" expanded="true" signature="2900:2913" ph="..." />
-            <marker date="1539747782074" expanded="true" signature="2938:2974" ph="..." />
-            <marker date="1539747782074" expanded="true" signature="3076:3172" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/views/DirectorDetailPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -872,18 +778,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/server/views/LoginPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/server/views/PicsEditingPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        <state relative-caret-position="1395">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/ChooseConnectPicsPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/javascripts/movieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <marker date="1539757255998" expanded="true" signature="2910:2923" ph="..." />
+            <marker date="1539757255998" expanded="true" signature="2948:2984" ph="..." />
+            <marker date="1539757255998" expanded="true" signature="3086:3182" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/views/DirectorDetailPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
           <folding />
         </state>
       </provider>

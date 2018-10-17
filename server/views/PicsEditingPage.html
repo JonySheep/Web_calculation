@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style/edit_page.css" />
-    <link rel="stylesheet" type="text/css" href="style/button.css" />
-    <link rel="stylesheet" type="text/css" href="style/header.css" />
-    <link rel="stylesheet" type="text/css" href="style/footer.css" />
-    <link href="style/cropper.css" rel="stylesheet">
-    <script src="js/jquery-3.3.1.min.js" type="text/javascript" ></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/edit_page.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/button.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/header.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
+    <link href="/stylesheets/cropper.css" rel="stylesheet">
+    <script src="/javascripts/jquery-3.3.1.min.js" type="text/javascript" ></script>
     <title>Picture Editing</title>
 <body style="margin: 0px">
     <div class="edit-header">
@@ -19,7 +19,7 @@
     </div>
     <div class="edit-background">
         <div class="pic-container">
-            <img src="assets/movie_pic/darkknight2.jpg"
+            <img src="/images/movie_pic/darkknight2.jpg"
                  height="600"
                  id="curImg"
             >
@@ -48,38 +48,38 @@
             </div>
             <div id="edit-buttons" style="display: none;;float: right">
                 <div class="icon-button">
-                    <img src="assets/icon/逆转.png"
+                    <img src="/images/icon/逆转.png"
                          onclick="anticlockwiseRotate()"
                          width="25">
                 </div>
                 <div class="icon-button">
-                    <img src="assets/icon/顺转.png"
+                    <img src="/images/icon/顺转.png"
                          onclick="clockwiseRotate()"
                          width="25">
 
                 </div>
                 <div class="icon-button">
-                    <img src="assets/icon/放大.png"
+                    <img src="/images/icon/放大.png"
                          onclick="enlarge()"
                          width="25">
 
                 </div>
                 <div class="icon-button">
-                    <img src="assets/icon/缩小.png"
+                    <img src="/images/icon/缩小.png"
                          onclick="shrink()"
                          width="25">
 
                 </div>
                 <div class="icon-button"
                      style="background-color: rgb(248,29,37); border: none">
-                    <img src="assets/icon/取消.png"
+                    <img src="/images/icon/取消.png"
                          onclick="cropCancel()"
                          width="25"
                     >
                 </div>
                 <div class="icon-button"
                      style="background-color: rgb(84,164,0);  border: none">
-                    <img src="assets/icon/确认.png"
+                    <img src="/images/icon/确认.png"
                          onclick="cropSave()"
                          width="25"
                     >
@@ -92,8 +92,8 @@
         <p style="color: white" >Produce by Yang🐑</p>
     </div>
 </body>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.4.1/cropper.min.js"></script>&lt;!&ndash; jQuery is required &ndash;&gt;-->
-<script src="js/cropper.js"></script>
-<script src="js/EditPic.js" type="text/javascript" ></script>
+
+<script src="/javascripts/cropper.js"></script>
+<script src="/javascripts/EditPic.js" type="text/javascript" ></script>
 
 </html>
