@@ -1,5 +1,5 @@
 .login_background {
-    background: url("../../views/assets/movie_pic/darkknight.jpeg") no-repeat;
+    background: url("/images/movie_pic/darkknight.jpeg") no-repeat;
     background-size: cover;
     padding: 100px;
     overflow: auto;
@@ -54,4 +54,5 @@
     opacity: 0.7;
     margin-bottom: 20px;
     cursor: pointer;
+    margin-left: 50px;
 }
