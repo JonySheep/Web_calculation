@@ -105,7 +105,7 @@ function enlarge() {
 }
 
 /**
- * 缩小代码一倍
+ * 缩小图片一倍
  */
 function shrink() {
     $('#curImg').cropper('zoom', -1);
@@ -113,9 +113,9 @@ function shrink() {
 }
 
 function toCenter() {
-    window.location.href = "../../views/DirectorDetailPage.html"
+    window.location.href = "/home"
 }
 
 function toConnectPage() {
-    window.location.href = "../../views/ChooseConnectPicsPage.html"
+    window.location.href = "/connectPic"
 }

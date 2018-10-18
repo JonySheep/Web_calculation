@@ -96,9 +96,9 @@ for(var i = 0; i< movie_list.length; i++) {
 
 function toEdit(id) {
     console.log(id);
-    window.location.href = encodeURI("./PicsEditingPage.html?url=" + movie_list[id].pic_src);
+    window.location.href = encodeURI("./editPic?url=" + movie_list[id].pic_src);
 }
 
 function Logout() {
-    window.location.href = "./LoginPage.html";
+    window.location.href = "./login";
 }

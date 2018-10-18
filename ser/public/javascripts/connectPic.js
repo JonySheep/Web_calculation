@@ -1,14 +1,14 @@
 var srcList = [
-    "../assets/movie_pic/darkknight2.jpg",
-    "../assets/movie_pic/memento.jpg",
-    "../assets/movie_pic/prestige.jpg",
-    "../assets/movie_pic/dunkirk2.jpg",
-    "../assets/movie_pic/Inception.jpg",
-    "../assets/movie_pic/batmanbegins.jpg",
-    "../assets/movie_pic/following.jpg",
-    "../assets/movie_pic/intersteller.jpg",
-    "../assets/movie_pic/insomnia.jpg",
-    "../assets/movie_pic/darkknightrise.jpg"
+    "/images/movie_pic/darkknight2.jpg",
+    "/images/movie_pic/memento.jpg",
+    "/images/movie_pic/prestige.jpg",
+    "/images/movie_pic/dunkirk2.jpg",
+    "/images/movie_pic/Inception.jpg",
+    "/images/movie_pic/batmanbegins.jpg",
+    "/images/movie_pic/following.jpg",
+    "/images/movie_pic/intersteller.jpg",
+    "/images/movie_pic/insomnia.jpg",
+    "/images/movie_pic/darkknightrise.jpg"
 ];
 var chosenList = [];
 
@@ -117,5 +117,5 @@ function appendSmallPic(id) {
 }
 
 function toCenter() {
-    window.location.href = "./DirectorDetailPage.html";
+    window.location.href = "./home";
 }

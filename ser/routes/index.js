@@ -2,12 +2,7 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.redirect('/');
-});
-
-router.route('/login')
+router.route('/')
     .get(function (req, res) {
         res.render('LoginPage', {title: '用户登录'});
     })
@@ -21,7 +16,7 @@ router.route('/login')
             res.redirect('/');
         } else {
             req.session.error('用户名或密码不正确');
-            res.redirect('/login');
+            res.redirect('/');
         }
     });
 
@@ -35,18 +30,26 @@ router.get('/home', function (req, res) {
 });
 
 router.get('/editPic', function (req, res) {
-    authentication(req, res);
+    // authentication(req, res);
     res.render('PicsEditingPage', {title: '图片导出处理'});
 });
 
 router.get('/connectPic', function (req, res) {
-    authentication(req, res);
+    // authentication(req, res);
     res.render('ChooseConnectPicsPage', {title: '图片合成'});
 });
 
 router.get('/register', function (req, res) {
     res.render('RegisterPage', {title: '注册'});
-});
+})
+    .post(function (req, res) {
+        var user = {
+            username: 'admin',
+            password: '123456'
+        }
+        req.session.user = user;
+        res.redirect('/');
+    });
 
 /**
  * 检测访问权限
