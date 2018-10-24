@@ -85,4 +85,15 @@ app.use(function(err, req, res, next) {
 //     next();
 // });
 
+// mysql
+var mysql = require('mysql');
+var connection = mysql.createConnection({
+    host: 'localhost',
+    user: 'root',
+    password: '15078852107yyq',
+    port: '3306',
+    database: 'memento'
+});
+connection.conncet();
+
 module.exports = app;
