@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/311d238a-2fe7-40c4-a2fb-74441785864a.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ser/routes/sqlController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ser/views/error.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ser/app.js" afterPath="$PROJECT_DIR$/ser/app.js" />
-      <change beforePath="$PROJECT_DIR$/ser/database/userDAO.js" afterPath="$PROJECT_DIR$/ser/database/userDAO.js" />
+      <change beforePath="$PROJECT_DIR$/ser/database/userDAO.js" afterPath="" />
       <change beforePath="$PROJECT_DIR$/ser/public/javascripts/userController.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
       <change beforePath="$PROJECT_DIR$/ser/routes/index.js" afterPath="$PROJECT_DIR$/ser/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/ser/views/LoginPage.html" afterPath="$PROJECT_DIR$/ser/views/LoginPage.html" />
+      <change beforePath="$PROJECT_DIR$/ser/routes/sqlController.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="337">
+              <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -91,21 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sqlController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ser/routes/sqlController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="592">
+              <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -184,13 +167,13 @@
         <option value="$PROJECT_DIR$/ser/views/PicsEditingPage.html" />
         <option value="$PROJECT_DIR$/ser/views/RegisterPage.html" />
         <option value="$PROJECT_DIR$/ser/public/javascripts/movieList.js" />
-        <option value="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
         <option value="$PROJECT_DIR$/ser/app.js" />
         <option value="$PROJECT_DIR$/ser/routes/users.js" />
         <option value="$PROJECT_DIR$/ser/views/LoginPage.html" />
-        <option value="$PROJECT_DIR$/ser/routes/index.js" />
-        <option value="$PROJECT_DIR$/ser/routes/sqlController.js" />
         <option value="$PROJECT_DIR$/ser/views/error.html" />
+        <option value="$PROJECT_DIR$/ser/routes/sqlController.js" />
+        <option value="$PROJECT_DIR$/ser/routes/index.js" />
+        <option value="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
       </list>
     </option>
   </component>
@@ -221,9 +204,9 @@
     <dismissed value="$PROJECT_DIR$/ser/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="497" />
+    <option name="x" value="355" />
     <option name="y" value="23" />
-    <option name="width" value="943" />
+    <option name="width" value="1085" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectView">
@@ -260,6 +243,19 @@
               <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
               <item name="ser" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
@@ -428,15 +424,15 @@
       <workItem from="1539761365662" duration="1549000" />
       <workItem from="1540363360783" duration="538000" />
       <workItem from="1540369056893" duration="1964000" />
-      <workItem from="1540480621256" duration="9430000" />
+      <workItem from="1540480621256" duration="13585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97749000" />
+    <option name="totallyTimeSpent" value="101904000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="23" width="943" height="823" extended-state="0" />
+    <frame x="355" y="23" width="1085" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -451,8 +447,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36403996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08990011" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3058485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0776606" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -780,14 +776,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.User">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -821,16 +809,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ser/routes/sqlController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="592">
+          <caret line="40" column="43" lean-forward="false" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding />
         </state>
       </provider>

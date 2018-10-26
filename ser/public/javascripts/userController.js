@@ -30,7 +30,7 @@ $("#login").click(function () {
         type: 'post',
         data: $(".login_form").serialize(),
         success: function (data) {
-           if(data.status === 99999) {
+           if(data.status === 200) {
                window.location.href('/home');
            } else {
                alert('用户名或密码错误');
