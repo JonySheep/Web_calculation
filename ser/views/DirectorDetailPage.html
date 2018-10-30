@@ -18,7 +18,7 @@
                 style="width: 120px;float: right;margin-right: 30px;">退出登录</button>
         <img src="/images/user_avatar.jpg" class="user-avatar" width="40" height="40">
     </div>
-    <div style="white-space: nowrap; display: flex; background-color: #001529">
+    <div style="display: flex; background-color: #001529">
         <div class="director_page_container">
             <img src="/images/movie_pic/Nolan.jpg"
                  width="150"
@@ -43,28 +43,27 @@
             <div class="movie_list_container">
                 <ul id="pic-list">
                     <div class="new-memento-container">
-                        <form>
+                        <!--上传图片-->
+                        <form method="post" enctype="multipart/form-data" action="javascript:;">
                             <p>电影名称</p>
                             <input type="text" id="movie-name-input"
-                                   name="movie-name-input"
+                                   name="movieName"
                                    placeholder="输入您想要存入记忆的电影名称"
                             >
                             <p>Memory</p>
                             <input type="text" id="comment-input"
-                                   name="comment-input"
+                                   name="comment"
                                    maxlength="200"
                                    placeholder="留下您对电影的评论(最多200字)"
                             >
-                            <ul >
-                                <li id="example" style="display: flex;float: left">
-                                    <button style="margin-left: 0px" id="upload_button"
-                                            class="primary-button">文件上传</button>
-                                    <button class="primary-button"
-                                            style="background-color: coral;color: white">下一步</button>
-                                    <div style="display: block">
-                                        <ol class="files"></ol>
-                                    </div>
-                            </ul>
+
+                            <input type="file" style="margin: 20px 0px 20px 0px;font-size: 10px"
+                                   id="choose"
+                            />
+                            <button class="primary-button" id="upload-button"
+                                   style="width:100px;background-color: coral;color: white;margin-left: 0px">确定上传
+                            </button>
+                            <img class="newImg" height="100" width="400"/>
                         </form>
                     </div>
                 </ul>
@@ -79,6 +78,4 @@
 </body>
 <script type="text/javascript" src="/javascripts/movieList.js"></script>
 <script type="text/javascript" src="/javascripts/uploadPic.js"></script>
-<script type="text/javascript" src="/javascripts/ajaxUpload.js"></script>
-
 </html>

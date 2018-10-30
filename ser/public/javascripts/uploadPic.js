@@ -1,45 +1,36 @@
 "use strict";
-$(document).ready(function(){
-    var button = $('#upload_button'), interval;
-    var fileType = "all",fileNum = "one";
-    new AjaxUpload(button,{
-        // action: 'do/uploadfile.php',
-        /*data:{
-        'buttoninfo':button.text()
-        },*/
-        name: 'userfile',
-        onSubmit : function(file, ext){
-            if(fileType == "pic")
-            {
-                if (ext && /^(jpg|png|jpeg|gif)$/.test(ext)){
-                    this.setData({
-                        'info': '文件类型为图片'
-                    });
-                } else {
-                    $('<li></li>').appendTo('#example .files').text('非图片类型文件，请重传');
-                    return false;
-                }
-            }
-            button.text('文件上传中');
-            if(fileNum == 'one')
-                this.disable();
-            interval = window.setInterval(function(){
-                var text = button.text();
-                if (text.length < 14){
-                    button.text(text + '.');
-                } else {
-                    button.text('文件上传中');
-                }
-            }, 200);
+
+$('#upload-button').click(function () {
+    //获取上传的File对象，此处是一张图片对象
+    var file = document.getElementById("choose").files[0];
+
+    var movieName = $("input[name='movieName']").val();
+    var comment = $("input[name='comment']").val();
+    console.log(movieName);
+    console.log(comment);
+
+    if (movieName === "" || comment === "") {
+        alert("请填写电影名称和评论～");
+        return;
+    }
+
+    var formData = new FormData();
+    formData.append("pic", file);//设置key为pic,value为上述的File对象
+    console.log(formData.get('pic'));
+    $.ajax({
+        type: 'POST',
+        url: '/upload',
+        data: formData,
+        async: false,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            console.log(data.filePath);
+            $(".newImg").attr("src", data.filePath);//上传成功则图片显示
         },
-        onComplete: function(file, response){
-            if(response != "success")
-                alert(response);
-            button.text('文件上传');
-            window.clearInterval(interval);
-            this.enable();
-            if(response == "success");
-            $('<li></li>').appendTo('#example .files').text(file);
+        error: function (err) {
+            console.log(err.message);
         }
-    });
+    })
 });

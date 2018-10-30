@@ -1,6 +1,7 @@
 "use strict";
 var express = require('express');
 var router = express.Router();
+var path = require('path');
 // 连接mysql数据库
 var mysql = require('mysql');
 var connection = mysql.createConnection({
@@ -17,8 +18,8 @@ connection.connect(function (err) {
         console.log("成功连接数据库！");
     }
 });
+express().use(express.static('./public'));
 // var sql = require('./sqlController');
-
 
 router.route('/')
     .get(function (req, res) {
@@ -102,6 +103,29 @@ router.route('/register')
             }
         });
     });
+
+
+var multer = require('multer');
+//选择diskStorage存储
+const storage = multer.diskStorage({
+    destination: function (req, file, cb) {
+        cb(null, path.resolve('public/images/upload'));
+    },
+    filename: function (req, file, cb) {
+        cb(null, Date.now() + path.extname(file.originalname));//增加了文件的扩展名
+    }
+});
+
+var upload = multer({storage: storage});
+
+// 上传图片
+router.post('/upload', upload.single('pic') , function (req, res, next) {
+    res.send({
+        err: null,
+        //filePath:就是图片在项目中的存放路径
+        filePath: 'images/upload/' + path.basename(req.file.path)
+    });
+});
 
 
 /**
