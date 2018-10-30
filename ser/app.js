@@ -4,14 +4,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-// var favicon = require('static-favicon');
-//
-// var bodyParser = require('body-parser');
-//
-// var session = require('express-session');
-// var Settings = require('./database/setting');
-// var MongoStore = require('connect-mongodb');
-// var db = require('./database/msession');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -33,21 +25,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded());
 
-//session config
-// app.use(session({
-//     cookie: {maxAge: 600000},
-//     secret: Settings.COOKIE_SECRET,
-//     store: new MongoStore({
-//         username: Settings.USERNAME,
-//         password: Settings.PASSWORD,
-//         url: Settings.URL,
-//         db: db
-//     })
-// }));
-// app.use(function (req, res, next) {
-//     res.locals.user = req.session.user;
-//     next();
-// })
 
 // route config
 app.use('/', indexRouter);

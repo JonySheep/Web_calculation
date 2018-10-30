@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/stylesheets/header.css" />
     <script src="/javascripts/jquery-3.3.1.min.js" type="text/javascript" ></script>
 </head>
-<body style="margin: 0px">
+<body style="margin: 0px;width: 100%">
     <div class="edit-header" style="margin-bottom: 5px">
         <p class="edit-header-title">Memento</p>
         <p class="edit-small-title">/电影列表</p>
@@ -38,9 +38,29 @@
                 John Nolan (uncle)
                 Lisa Joy (sister-in-law)</u></p>
         </div>
-        <div class="movie_list_container">
-            <ul id="pic-list">
-            </ul>
+        <div class="left-container">
+            <div class="new-memento-container">
+                <form>
+                    <p>电影名称</p>
+                    <input type="text" id="movie-name-input"
+                           name="movie-name-input"
+                           placeholder="输入您想要存入记忆的电影名称"
+                    >
+                    <p>Memory</p>
+                    <input type="text" id="comment-input"
+                           name="comment-input"
+                           maxlength="10"
+                           placeholder="留下您对电影的评论(最多200字)"
+                    >
+                    <div id="upload_button">文件上传</div>
+                    <p>已上传文件：</p>
+                </form>
+            </div>
+            <div class="movie_list_container">
+                <ul id="pic-list">
+                </ul>
+            </div>
+
         </div>
     </div>
     <div class="footer">
@@ -49,4 +69,7 @@
     </div>
 </body>
 <script type="text/javascript" src="/javascripts/movieList.js"></script>
+<script type="text/javascript" src="/javascripts/uploadPic.js"></script>
+<script type="text/javascript" src="/javascripts/ajaxfileupload.js"></script>
+
 </html>

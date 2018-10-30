@@ -27,14 +27,8 @@ router.route('/')
 
 router.route('/login')
     .post(function (req, result) {
-        console.log('运行到这啦！！！');
-
         var loginSql = 'select password from user where username=\'' + req.body.username + '\' and password=\'' + req.body.password + '\';';
         connection.query(loginSql, function (err, res) {
-            console.log('err');
-            console.log(err);
-            console.log('res');
-            console.log(res);
 
             if(err === null) {
                 if(res === []) {
@@ -45,7 +39,7 @@ router.route('/login')
                     result.redirect('/home');
                 }
             } else {
-                result.sendStatus(500);
+                result.sendStatus(400);
                 result.redirect('/');
             }
         });
@@ -70,16 +64,43 @@ router.get('/connectPic', function (req, res) {
     res.render('ChooseConnectPicsPage', {title: '图片合成'});
 });
 
-router.get('/register', function (req, res) {
+router.route('/register')
+    .get(function (req, res) {
     res.render('RegisterPage', {title: '注册'});
 })
-    .post(function (req, res) {
-        var user = {
-            username: 'admin',
-            password: '123456'
-        }
-        req.session.user = user;
-        res.redirect('/');
+    .post(function (req, result) {
+        var username = req.body.username;
+        var password = req.body.password;
+
+        var checkSql = 'select username from user where username=\'' +
+            username + '\';';
+
+        var regisSql = 'insert into user(username,password) values(\'' +
+            username + '\',\'' + password + '\');';
+
+        // check username
+        connection.query(regisSql, function (err, res) {
+            console.log(res);
+
+            if(err === null) {
+                // if(res === []) {
+                //     // 用户不存在
+                //     // connection.query(regisSql, function () {
+                //     //     result.sendStatus(200);
+                //     //     result.redirect('/home');
+                //     // })
+                // } else {
+                //     // 用户已存在
+                //     result.sendStatus(500);
+                //     result.redirect('/register');
+                // }
+                result.sendStatus(200);
+                result.redirect('/login');
+            } else {
+                result.sendStatus(400);
+                result.redirect('/');
+            }
+        });
     });
 
 
