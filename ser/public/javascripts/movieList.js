@@ -1,96 +1,55 @@
 "use strict";
 var movie_list = [
     {
-        moive_eng_name: "Following",
-        moive_chi_name: "追随",
+        movie_name: "追随",
         pic_src: "/images/movie_pic/following.jpg",
-        year: 1998,
-        mark: 7.6,
-        imdbUrl: "https://www.imdb.com/title/tt0154506/?ref_=nm_flmg_wr_14"
+        comment: "诺兰的牛逼来源于内心散发出的恐惧。"
     },
     {
-        moive_eng_name: "Memento",
-        moive_chi_name: "记忆碎片",
+        movie_name: "记忆碎片",
         pic_src: "/images/movie_pic/memento.jpg",
-        year: 2000,
-        mark: 8.5,
-        imdbUrl: "https://www.imdb.com/title/tt0209144/?ref_=tt_rec_tt"
+        comment: "不错,一开始我还以为家里的DVD坏了,怎么倒着放的"
     },
     {
-        moive_eng_name: "Insomnia",
-        moive_chi_name: "失眠症",
+        movie_name: "失眠症",
         pic_src: "/images/movie_pic/insomnia.jpg",
-        year: 2002,
-        mark: 7.2,
-        imdbUrl: "https://www.imdb.com/title/tt0278504/?ref_=nm_flmg_dr_9"
-    },
+        comment: "诺兰的牛逼来源于内心散发出的恐惧。"},
     {
-        moive_eng_name: "Batman Begins",
-        moive_chi_name: "蝙蝠侠·侠影之谜",
+        movie_name: "蝙蝠侠·侠影之谜",
         pic_src: "/images/movie_pic/batmanbegins.jpg",
-        year: 2005,
-        mark: 8.3,
-        imdbUrl: "https://www.imdb.com/title/tt0372784/?ref_=tt_rec_tt"
-    },
+        comment: "诺兰赋予了蝙蝠侠以新的生命~~"},
     {
-        moive_eng_name: "The Prestige",
-        moive_chi_name: "致命魔术",
+        movie_name: "致命魔术",
         pic_src: "/images/movie_pic/prestige.jpg",
-        year: 2006,
-        mark: 8.5,
-        imdbUrl: "https://www.imdb.com/title/tt0482571/?ref_=tt_rec_tt"
-    },
+        comment: "他选择了和他妻子一样的死法。100次。"},
     {
-        moive_eng_name: "The Dark Knight",
-        moive_chi_name: "蝙蝠侠·黑暗骑士",
+        movie_name: "蝙蝠侠·黑暗骑士",
         pic_src: "/images/movie_pic/darkknight5.jpg",
-        year: 2008,
-        mark: 9.0,
-        imdbUrl: "https://www.imdb.com/title/tt0468569/?ref_=tt_rec_tt"
-    },
+        comment: "光明与黑暗是同一个人的两张脸"},
     {
-        moive_eng_name: "Inception",
-        moive_chi_name: "盗梦空间",
+        movie_name: "盗梦空间",
         pic_src: "/images/movie_pic/Inception.jpg",
-        year: 2010,
-        mark: 8.8,
-        imdbUrl: "https://www.imdb.com/title/tt1375666/?ref_=tt_rec_tt"
-    },
+        comment: "Nolan给了我们一场无法盗取的梦。" },
     {
-        moive_eng_name: "The Dark Knight Rises",
-        moive_chi_name: "蝙蝠侠·黑暗骑士崛起",
+        movie_name: "蝙蝠侠·黑暗骑士崛起",
         pic_src: "/images/movie_pic/darkknight2.jpg",
-        year: 2012,
-        mark: 8.4,
-        imdbUrl: "https://www.imdb.com/title/tt1345836/?ref_=tt_rec_tt",
-    },
+        comment: "拍出了黑暗英雄的铁血丹心，但没能超越《黑暗骑士》。配乐超赞！"},
     {
-        moive_eng_name: "Intersteller",
-        moive_chi_name: "星际穿越",
+        movie_name: "星际穿越",
         pic_src: "/images/movie_pic/intersteller.jpg",
-        year: 2014,
-        mark: 8.6,
-        imdbUrl: "https://www.imdb.com/title/tt0816692/?ref_=nm_knf_t2"
-    },
+        comment: "你的鹤发或许是我的童颜，而我一次呼吸能抵过你此生的岁月。"},
     {
-        moive_eng_name: "Dunkirk",
-        moive_chi_name: "敦刻尔克",
+        movie_name: "敦刻尔克",
         pic_src: "/images/movie_pic/dunkirk.jpeg",
-        year: 2017,
-        mark: 8.0,
-        imdbUrl: "https://www.imdb.com/title/tt5013056/?ref_=nm_knf_i4"
-    }
+        comment: "诺兰对卡梅隆说：'我来教教你怎么拍沉船.'"}
 ]
 
 for(var i = 0; i< movie_list.length; i++) {
     $('#pic-list').append("<li ><div class='movie_detail_container'>" +
         "<img src='" + movie_list[i].pic_src + "' width='255' height='290'>" +
-        "<p class='movie_name'>《 " + movie_list[i].moive_eng_name + "》</p>" +
-        "<p>" + movie_list[i].moive_chi_name + "(" + movie_list[i].year + ")</p>" +
-        "<div style='display: flex'>" +
-        "<a style='margin-left: 50px;margin-right: 10px' href='" + movie_list[i].imdbUrl +"'>IMDB：" + movie_list[i].mark +"/10.0</a>" +
-        "<div style='height: 20px;width: 20px;border: black 1px solid;border-radius: 3px;padding: 3px;cursor: pointer'>" +
-        "<img id='" + i +"' src='../images/icon/导出.png' width='20' onclick='toEdit(id)'></div></div>" +
+        "<p class='movie_name'>《 " + movie_list[i].movie_name + "》</p>" +
+        "<p style='font-size: 13px;'>" + movie_list[i].comment + "</p>" +
+        "<img id='" + i +"' src='../images/icon/导出.png' width='20' onclick='toEdit(id)'>" +
         "</div></li>")
 }
 
@@ -102,3 +61,45 @@ function toEdit(id) {
 function Logout() {
     window.location.href = "./login";
 }
+
+$('#upload-button').click(function () {
+    //获取上传的File对象，此处是一张图片对象
+    var file = document.getElementById("choose").files[0];
+
+    var movieName = $("input[name='movieName']").val();
+    var comment = $("input[name='comment']").val();
+    console.log(movieName);
+    console.log(comment);
+
+    if (movieName === "" || comment === "") {
+        alert("请填写电影名称和评论～");
+        return;
+    }
+
+    var formData = new FormData();
+    formData.append("pic", file);//设置key为pic,value为上述的File对象
+    console.log(formData.get('pic'));
+    $.ajax({
+        type: 'POST',
+        url: '/upload',
+        data: formData,
+        async: false,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            console.log(data.filePath);
+            $(".newImg").attr("src", data.filePath);//上传成功则图片显示
+            var newMemory = {
+                movie_name: movieName,
+                comment: comment,
+                pic_src: "/images/movie_pic/dunkirk.jpeg",
+                year: 2017,
+                mark: 8.0,
+            }
+        },
+        error: function (err) {
+            console.log(err.message);
+        }
+    })
+});

@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ser/app.js" afterPath="$PROJECT_DIR$/ser/app.js" />
-      <change beforePath="$PROJECT_DIR$/ser/package.json" afterPath="$PROJECT_DIR$/ser/package.json" />
+      <change beforePath="$PROJECT_DIR$/ser/public/javascripts/movieList.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/movieList.js" />
       <change beforePath="$PROJECT_DIR$/ser/public/javascripts/uploadPic.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/uploadPic.js" />
       <change beforePath="$PROJECT_DIR$/ser/public/stylesheets/director_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/director_page.css" />
-      <change beforePath="$PROJECT_DIR$/ser/routes/index.js" afterPath="$PROJECT_DIR$/ser/routes/index.js" />
       <change beforePath="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" afterPath="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -57,11 +55,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DirectorDetailPage.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DirectorDetailPage.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ser/views/DirectorDetailPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+            <state relative-caret-position="274">
+              <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -78,8 +76,8 @@
       <file leaf-file-name="uploadPic.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ser/public/javascripts/uploadPic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,11 +103,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="director_page.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="movieList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/public/javascripts/movieList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+              <folding>
+                <marker date="1540886500178" expanded="true" signature="1634:1649" ph="..." />
+                <marker date="1540886500178" expanded="true" signature="1634:1650" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="director_page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/director_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+            <state relative-caret-position="280">
+              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -132,6 +143,7 @@
       <find>../</find>
       <find>assets</find>
       <find>logo</find>
+      <find>moive_chi_name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,12 +202,12 @@
         <option value="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
         <option value="$PROJECT_DIR$/ser/public/javascripts/ajaxfileupload.js" />
         <option value="$PROJECT_DIR$/ser/public/php/update.php" />
-        <option value="$PROJECT_DIR$/ser/public/javascripts/movieList.js" />
         <option value="$PROJECT_DIR$/ser/app.js" />
-        <option value="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" />
         <option value="$PROJECT_DIR$/ser/routes/index.js" />
         <option value="$PROJECT_DIR$/ser/public/javascripts/uploadPic.js" />
         <option value="$PROJECT_DIR$/ser/public/stylesheets/director_page.css" />
+        <option value="$PROJECT_DIR$/ser/public/javascripts/movieList.js" />
+        <option value="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" />
       </list>
     </option>
   </component>
@@ -226,9 +238,9 @@
     <dismissed value="$PROJECT_DIR$/ser/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="551" />
+    <option name="x" value="168" />
     <option name="y" value="23" />
-    <option name="width" value="889" />
+    <option name="width" value="1272" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectView">
@@ -284,6 +296,14 @@
               <item name="ser" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
@@ -467,15 +487,15 @@
       <workItem from="1540363360783" duration="538000" />
       <workItem from="1540369056893" duration="1964000" />
       <workItem from="1540480621256" duration="21170000" />
-      <workItem from="1540865228188" duration="11031000" />
+      <workItem from="1540865228188" duration="12545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120520000" />
+    <option name="totallyTimeSpent" value="122034000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="551" y="23" width="889" height="823" extended-state="0" />
+    <frame x="168" y="23" width="1272" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -490,7 +510,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29397875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20243903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18141593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49007446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -729,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,18 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/movieList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="75" column="34" lean-forward="true" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
-          <folding>
-            <marker date="1540876398185" expanded="true" signature="2910:2923" ph="..." />
-            <marker date="1540876398185" expanded="true" signature="2948:2984" ph="..." />
-            <marker date="1540876398185" expanded="true" signature="3086:3182" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/button.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -837,10 +846,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/uploadPic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/director_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/movieList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <marker date="1540886500178" expanded="true" signature="1634:1649" ph="..." />
+            <marker date="1540886500178" expanded="true" signature="1634:1650" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ser/views/DirectorDetailPage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="54" column="48" lean-forward="false" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        <state relative-caret-position="274">
+          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -850,22 +886,6 @@
             <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/uploadPic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/director_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="52" column="21" lean-forward="false" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
