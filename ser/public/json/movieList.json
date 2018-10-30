@@ -1,0 +1,44 @@
+[
+  {
+    "movie_name": "追随",
+    "pic_src": "/images/movie_pic/following.jpg",
+    "comment": "诺兰的牛逼来源于内心散发出的恐惧。"
+  },
+  {
+    "movie_name": "记忆碎片",
+    "pic_src": "/images/movie_pic/memento.jpg",
+    "comment": "不错,一开始我还以为家里的DVD坏了,怎么倒着放的"
+  },
+  {
+    "movie_name": "失眠症",
+    "pic_src": "/images/movie_pic/insomnia.jpg",
+    "comment": "诺兰的牛逼来源于内心散发出的恐惧。"},
+  {
+    "movie_name": "蝙蝠侠·侠影之谜",
+    "pic_src": "/images/movie_pic/batmanbegins.jpg",
+    "comment": "诺兰赋予了蝙蝠侠以新的生命~~"},
+  {
+    "movie_name": "致命魔术",
+    "pic_src": "/images/movie_pic/prestige.jpg",
+    "comment": "他选择了和他妻子一样的死法。100次。"},
+  {
+    "movie_name": "蝙蝠侠·黑暗骑士",
+    "pic_src": "/images/movie_pic/darkknight5.jpg",
+    "comment": "光明与黑暗是同一个人的两张脸"},
+  {
+    "movie_name": "盗梦空间",
+    "pic_src": "/images/movie_pic/Inception.jpg",
+    "comment": "Nolan给了我们一场无法盗取的梦。" },
+  {
+    "movie_name": "蝙蝠侠·黑暗骑士崛起",
+    "pic_src": "/images/movie_pic/darkknight2.jpg",
+    "comment": "拍出了黑暗英雄的铁血丹心，但没能超越《黑暗骑士》。配乐超赞！"},
+  {
+    "movie_name": "星际穿越",
+    "pic_src": "/images/movie_pic/intersteller.jpg",
+    "comment": "你的鹤发或许是我的童颜，而我一次呼吸能抵过你此生的岁月。"},
+  {
+    "movie_name": "敦刻尔克",
+    "pic_src": "/images/movie_pic/dunkirk.jpeg",
+    "comment": "诺兰对卡梅隆说：'我来教教你怎么拍沉船.'"}
+]

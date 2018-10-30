@@ -1,3 +1,4 @@
+"use strict";
 var srcList = [
     "/images/movie_pic/darkknight2.jpg",
     "/images/movie_pic/memento.jpg",

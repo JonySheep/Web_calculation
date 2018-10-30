@@ -52,7 +52,7 @@ router.get('/logout', function (req, res) {
 });
 
 router.get('/home', function (req, res) {
-    res.render('DirectorDetailPage', {title: '记忆大厅'});
+    res.render('MemoryHomePage', {title: '记忆大厅'});
 });
 
 router.get('/editPic', function (req, res) {
