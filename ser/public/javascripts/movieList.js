@@ -84,7 +84,7 @@ var movie_list = [
 
 for(var i = 0; i< movie_list.length; i++) {
     $('#pic-list').append("<li ><div class='movie_detail_container'>" +
-        "<img src='" + movie_list[i].pic_src + "' width='240' height='290'>" +
+        "<img src='" + movie_list[i].pic_src + "' width='255' height='290'>" +
         "<p class='movie_name'>《 " + movie_list[i].moive_eng_name + "》</p>" +
         "<p>" + movie_list[i].moive_chi_name + "(" + movie_list[i].year + ")</p>" +
         "<div style='display: flex'>" +

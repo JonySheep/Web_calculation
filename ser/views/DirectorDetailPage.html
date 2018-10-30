@@ -39,25 +39,34 @@
                 Lisa Joy (sister-in-law)</u></p>
         </div>
         <div class="left-container">
-            <div class="new-memento-container">
-                <form>
-                    <p>电影名称</p>
-                    <input type="text" id="movie-name-input"
-                           name="movie-name-input"
-                           placeholder="输入您想要存入记忆的电影名称"
-                    >
-                    <p>Memory</p>
-                    <input type="text" id="comment-input"
-                           name="comment-input"
-                           maxlength="10"
-                           placeholder="留下您对电影的评论(最多200字)"
-                    >
-                    <div id="upload_button">文件上传</div>
-                    <p>已上传文件：</p>
-                </form>
-            </div>
+
             <div class="movie_list_container">
                 <ul id="pic-list">
+                    <div class="new-memento-container">
+                        <form>
+                            <p>电影名称</p>
+                            <input type="text" id="movie-name-input"
+                                   name="movie-name-input"
+                                   placeholder="输入您想要存入记忆的电影名称"
+                            >
+                            <p>Memory</p>
+                            <input type="text" id="comment-input"
+                                   name="comment-input"
+                                   maxlength="200"
+                                   placeholder="留下您对电影的评论(最多200字)"
+                            >
+                            <ul >
+                                <li id="example" style="display: flex;float: left">
+                                    <button style="margin-left: 0px" id="upload_button"
+                                            class="primary-button">文件上传</button>
+                                    <button class="primary-button"
+                                            style="background-color: coral;color: white">下一步</button>
+                                    <div style="display: block">
+                                        <ol class="files"></ol>
+                                    </div>
+                            </ul>
+                        </form>
+                    </div>
                 </ul>
             </div>
 
@@ -70,6 +79,6 @@
 </body>
 <script type="text/javascript" src="/javascripts/movieList.js"></script>
 <script type="text/javascript" src="/javascripts/uploadPic.js"></script>
-<script type="text/javascript" src="/javascripts/ajaxfileupload.js"></script>
+<script type="text/javascript" src="/javascripts/ajaxUpload.js"></script>
 
 </html>
