@@ -42,15 +42,24 @@ var movie_list = [
         movie_name: "敦刻尔克",
         pic_src: "/images/movie_pic/dunkirk.jpeg",
         comment: "诺兰对卡梅隆说：'我来教教你怎么拍沉船.'"}
-]
+];
 
-for(var i = 0; i< movie_list.length; i++) {
-    $('#pic-list').append("<li ><div class='movie_detail_container'>" +
-        "<img src='" + movie_list[i].pic_src + "' width='255' height='290'>" +
-        "<p class='movie_name'>《 " + movie_list[i].movie_name + "》</p>" +
-        "<p style='font-size: 13px;'>" + movie_list[i].comment + "</p>" +
-        "<img id='" + i +"' src='../images/icon/导出.png' width='20' onclick='toEdit(id)'>" +
-        "</div></li>")
+var newPicPath = "";
+intiateList();
+
+function intiateList() {
+    $('li').remove();
+
+    setTimeout(200);
+    for(var i = movie_list.length -1 ; i >= 0; i--) {
+        $('#pic-list').append("<li ><div class='movie_detail_container'>" +
+            "<img src='" + movie_list[i].pic_src + "' width='255' height='290'>" +
+            "<p class='movie_name'>《 " + movie_list[i].movie_name + "》</p>" +
+            "<p style='font-size: 13px;'>" + movie_list[i].comment + "</p>" +
+            "<img id='" + i +"' src='../images/icon/导出.png' width='20' onclick='toEdit(id)'>" +
+            "</div></li>")
+    }
+
 }
 
 function toEdit(id) {
@@ -66,16 +75,6 @@ $('#upload-button').click(function () {
     //获取上传的File对象，此处是一张图片对象
     var file = document.getElementById("choose").files[0];
 
-    var movieName = $("input[name='movieName']").val();
-    var comment = $("input[name='comment']").val();
-    console.log(movieName);
-    console.log(comment);
-
-    if (movieName === "" || comment === "") {
-        alert("请填写电影名称和评论～");
-        return;
-    }
-
     var formData = new FormData();
     formData.append("pic", file);//设置key为pic,value为上述的File对象
     console.log(formData.get('pic'));
@@ -90,16 +89,33 @@ $('#upload-button').click(function () {
         success: function (data) {
             console.log(data.filePath);
             $(".newImg").attr("src", data.filePath);//上传成功则图片显示
-            var newMemory = {
-                movie_name: movieName,
-                comment: comment,
-                pic_src: "/images/movie_pic/dunkirk.jpeg",
-                year: 2017,
-                mark: 8.0,
-            }
+            newPicPath = data.filePath;
         },
         error: function (err) {
             console.log(err.message);
         }
     })
+});
+
+$('#submit-button').click(function () {
+    var movieName = $("input[name='movieName']").val();
+    var comment = $("input[name='comment']").val();
+
+    if (movieName === "" || comment === "") {
+        alert("请填写电影名称和评论～");
+        return;
+    }
+
+    if (newPicPath === "") {
+        alert("请上传图片～");
+        return;
+    }
+
+    var newMemory = {
+        movie_name: movieName,
+        comment: comment,
+        pic_src: newPicPath
+    };
+    movie_list.push(newMemory);
+    intiateList();
 });
