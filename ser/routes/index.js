@@ -28,20 +28,16 @@ router.route('/')
 
 router.route('/login')
     .post(function (req, result) {
-        var loginSql = 'select password from user where username=\'' + req.body.username + '\' and password=\'' + req.body.password + '\';';
+        var username = req.body.username;
+        var password = req.body.password;
+        var loginSql = 'select password from user where username=\'' + username + '\' and password=\'' + password + '\';';
         connection.query(loginSql, function (err, res) {
 
             if(err === null) {
-                if(res === []) {
-                    result.sendStatus(500);
-                    result.redirect('/');
-                } else {
-                    result.sendStatus(200);
-                    result.redirect('/home');
-                }
+                result.status(200).send(res);
             } else {
-                result.sendStatus(400);
-                result.redirect('/');
+                alert('网络连接错误');
+                result.sendStatus(500);
             }
         });
     });
@@ -105,6 +101,7 @@ router.route('/register')
     });
 
 
+// 实现图片存储
 var multer = require('multer');
 //选择diskStorage存储
 const storage = multer.diskStorage({

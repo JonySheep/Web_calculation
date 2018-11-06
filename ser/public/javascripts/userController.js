@@ -30,13 +30,12 @@ $("#login").click(function () {
         type: 'post',
         data: $("#loginForm").serialize(),
         success: function (data) {
-           if(data.status === 200) {
-               window.location.href('/home');
-           } else if (data.status === 500){
+            console.log(data);
+           if(data.length !== 0) {
+               window.location = '/home';
+           } else{
                alert('用户名或密码错误');
-           } else {
-               alert('网络连接错误')
-           }
+           };
         }
     });
 });
