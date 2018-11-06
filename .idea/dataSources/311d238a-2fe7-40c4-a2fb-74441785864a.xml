@@ -1113,6 +1113,7 @@
     <column id="280" parent="279" name="username">
       <Position>1</Position>
       <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="281" parent="279" name="password">
@@ -1123,8 +1124,12 @@
     <column id="282" parent="279" name="isLogin">
       <Position>3</Position>
       <DataType>tinyint(1)|0</DataType>
-      <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
+    <key id="283" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>username</ColNames>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>

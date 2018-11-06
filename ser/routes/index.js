@@ -15,6 +15,9 @@ connection.connect(function (err) {
     if(err) {
         console.log(err.message);
     } else {
+        // 自动建表
+        var initQuery = "create table if not exists `user` (`username` varchar(50) primary key, `password` varchar(100), `isLogin` BOOLEAN)";
+        connection.query(initQuery);
         console.log("成功连接数据库！");
     }
 });
@@ -62,8 +65,9 @@ router.get('/connectPic', function (req, res) {
 });
 
 router.route('/register')
-    .get(function (req, res) {
+    .get(function (req, res, next) {
     res.render('RegisterPage', {title: '注册'});
+    next();
 })
     .post(function (req, result) {
         var username = req.body.username;
@@ -77,25 +81,10 @@ router.route('/register')
 
         // check username
         connection.query(regisSql, function (err, res) {
-            console.log(res);
-
             if(err === null) {
-                // if(res === []) {
-                //     // 用户不存在
-                //     // connection.query(regisSql, function () {
-                //     //     result.sendStatus(200);
-                //     //     result.redirect('/home');
-                //     // })
-                // } else {
-                //     // 用户已存在
-                //     result.sendStatus(500);
-                //     result.redirect('/register');
-                // }
                 result.sendStatus(200);
-                result.redirect('/login');
             } else {
-                result.sendStatus(400);
-                result.redirect('/');
+                result.send('用户已存在');
             }
         });
     });

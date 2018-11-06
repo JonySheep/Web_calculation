@@ -68,12 +68,10 @@ $('#register').click(function () {
         type: 'post',
         data: $("#registerForm").serialize(),
         success: function (data) {
-            if(data.status === 200) {
-                window.location.href('/');
-            } else if (data.status === 500){
-                alert('该用户已存在');
+            if(data === "OK") {
+                window.location = '/';
             } else {
-                alert('网络连接错误')
+                alert('用户已存在');
             }
         }
     });
