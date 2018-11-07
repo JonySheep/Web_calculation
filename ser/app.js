@@ -23,13 +23,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, './public')));
-// app.use(session({
-//     secret: '12345',
-//     name: 'testapp',
-//     cookie: {maxAge: 80000},
-//     resave: false,
-//     saveUninitialized: true
-// }));
+app.use(session({
+    secret: 'secret',
+    name: 'testapp',
+    cookie: {maxAge: 24 * 60 * 60 * 1000}, // session的有效时间，单位ms
+    resave: false,
+    saveUninitialized: true
+}));
 
 
 

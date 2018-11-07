@@ -32,7 +32,7 @@ $("#login").click(function () {
         success: function (data) {
             console.log(data);
            if(data.length !== 0) {
-               window.location = '/home';
+               window.location = '/';
            } else{
                alert('用户名或密码错误');
            };
@@ -60,8 +60,6 @@ $('#register').click(function () {
         alert('请填写密码');
     }
 
-    console.log($('#registerForm').serialize());
-
     //register
     $.ajax({
         url: '/register',
@@ -69,7 +67,7 @@ $('#register').click(function () {
         data: $("#registerForm").serialize(),
         success: function (data) {
             if(data === "OK") {
-                window.location = '/';
+                window.location = '/login';
             } else {
                 alert('用户已存在');
             }

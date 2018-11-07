@@ -113,7 +113,7 @@ function shrink() {
 }
 
 function toCenter() {
-    window.location.href = "/home"
+    window.location.href = "/"
 }
 
 function toConnectPage() {

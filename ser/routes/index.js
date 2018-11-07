@@ -26,10 +26,17 @@ express().use(express.static('./public'));
 
 router.route('/')
     .get(function (req, res) {
-        res.render('LoginPage', {title: '用户登录'});
+        if(!req.session.username) {
+            res.render('LoginPage', {title: '用户登录'});
+        } else {
+            res.render('MemoryHomePage', {title: '记忆大厅', username: req.session.username});
+        }
     });
 
 router.route('/login')
+    .get(function (req, res) {
+        res.render('LoginPage', {title: '用户登录'});
+    })
     .post(function (req, result) {
         var username = req.body.username;
         var password = req.body.password;
@@ -37,21 +44,22 @@ router.route('/login')
         connection.query(loginSql, function (err, res) {
 
             if(err === null) {
+                // 登录成功，设置session
+                req.session.username = username;
                 result.status(200).send(res);
             } else {
                 alert('网络连接错误');
                 result.sendStatus(500);
             }
         });
+        // 将登录状态设为true
+        var setLogin = 'update user set isLogin=TRUE where username="' + username + '";';
+        connection.query(setLogin);
     });
 
 router.get('/logout', function (req, res) {
-    req.session.user = null;
-    res.redirect('/');
-});
-
-router.get('/home', function (req, res) {
-    res.render('MemoryHomePage', {title: '记忆大厅'});
+    req.session.username = null; // 删除session
+    res.redirect('/login');
 });
 
 router.get('/editPic', function (req, res) {

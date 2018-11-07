@@ -118,5 +118,5 @@ function appendSmallPic(id) {
 }
 
 function toCenter() {
-    window.location.href = "./home";
+    window.location.href = "/";
 }
