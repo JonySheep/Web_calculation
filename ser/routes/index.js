@@ -2,6 +2,7 @@
 var express = require('express');
 var router = express.Router();
 var path = require('path');
+
 // 连接mysql数据库
 var mysql = require('mysql');
 var connection = mysql.createConnection({
@@ -16,18 +17,21 @@ connection.connect(function (err) {
         console.log(err.message);
     } else {
         // 自动建表
-        var initQuery = "create table if not exists `user` (`username` varchar(50) primary key, `password` varchar(100), `isLogin` BOOLEAN)";
+        var initQuery = "create table if not exists `user` (" +
+            "`username` varchar(50) primary key, " +
+            "`password` varchar(100), " +
+            "`name` varchar(30) default 'DefaultMan', " +
+            "`description` varchar(200) default '这个朋友很懒，什么也没有留下'," +
+            "`prefer` varchar(100) default '无' );";
         connection.query(initQuery);
         console.log("成功连接数据库！");
     }
 });
-express().use(express.static('./public'));
-// var sql = require('./sqlController');
 
 router.route('/')
     .get(function (req, res) {
         if(!req.session.username) {
-            res.render('LoginPage', {title: '用户登录'});
+            res.redirect('/login');
         } else {
             res.render('MemoryHomePage', {title: '记忆大厅', username: req.session.username});
         }
@@ -40,7 +44,9 @@ router.route('/login')
     .post(function (req, result) {
         var username = req.body.username;
         var password = req.body.password;
+        console.log(username);
         var loginSql = 'select password from user where username=\'' + username + '\' and password=\'' + password + '\';';
+        console.log(connection);
         connection.query(loginSql, function (err, res) {
 
             if(err === null) {
@@ -52,9 +58,6 @@ router.route('/login')
                 result.sendStatus(500);
             }
         });
-        // 将登录状态设为true
-        var setLogin = 'update user set isLogin=TRUE where username="' + username + '";';
-        connection.query(setLogin);
     });
 
 router.get('/logout', function (req, res) {
@@ -81,9 +84,6 @@ router.route('/register')
         var username = req.body.username;
         var password = req.body.password;
 
-        var checkSql = 'select username from user where username=\'' +
-            username + '\';';
-
         var regisSql = 'insert into user(username,password) values(\'' +
             username + '\',\'' + password + '\');';
 
@@ -97,6 +97,26 @@ router.route('/register')
         });
     });
 
+router.route('/user')
+    .get(function (req, result) {
+        // var username = req.session.username;
+        //
+        // var userInfoSql = 'select * from user where username=\'' +
+        //     username + '\';';
+        //
+        // connection.query(userInfoSql, function (err, res) {
+        //     if(err === null) {
+        //         result.send(res);
+        //         result.render('UserSettings', {username: req.session.username, title: '个人中心'});
+        //     } else {
+        //         result.sendStatus(500);
+        //     }
+        // });
+        result.render('UserSettings', {username: req.session.username, title: '个人中心'});
+    })
+    .post(function (req, res) {
+
+    });
 
 // 实现图片存储
 var multer = require('multer');

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memento | Settings</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/header.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/button.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/user_setting_page.css" />
+</head>
+<body style="margin: 0px">
+<div class="edit-header" style="margin-bottom: 5px">
+    <p class="edit-header-title">Memento</p>
+    <p class="edit-small-title">/个人设置</p>
+    <button class="primary-button"
+            onclick="toCenter()"
+            style="width: 120px;float: right;margin-right: 30px;">返回记忆大厅</button>
+</div>
+
+<div class="info-container">
+    <img src="/images/user_avatar.jpg" class="user-info-avatar" width="200">
+    <p id="name">YuQin Yang</p>
+    <p id="email">870590361@qq.com</p>
+    <p id="desc">"这个人很懒，什么都没有留下"</p>
+</div>
+<div class="setting-container">
+    <form>
+        <p class="info-label">昵称</p>
+        <input type="text" maxlength="16"
+               name="inputName"
+               placeholder="输入您的新昵称，且不超过16字"
+               style="height: 30px"
+        >
+        <p class="info-label">签名</p>
+        <input type="text" maxlength="100"
+               name="inputDesc"
+               placeholder="输入您的签名，且不超过100字"
+               style="height: 100px;"
+        >
+        <p class="info-label">我的标签</p>
+        <input type="text" maxlength="8"
+               name="tagsInput"
+               placeholder="输入我的标签，且不超过8字"
+               style="height: 30px;margin-bottom: 50px"
+        >
+    </form>
+    <button class="primary-button" id="confirmButton">确认更改</button>
+    <button class="primary-button" id="clearButton">清空</button>
+</div>
+
+<div class="footer">
+    <div style="float: left">
+        <p style="color: white;" >珍藏每一部电影，记下心中所想</p>
+        <p style="color: white;" >组成你的记忆碎片</p>
+    </div>
+    <div style="float: right">
+        <p class="footer-title">Memento</p>
+        <p style="color: white" >Produce by Yang🐑</p>
+    </div>
+</div>
+
+</body>
+
+<script type="text/javascript" src="/javascripts/headerController.js"></script>
+</html>

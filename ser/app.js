@@ -31,15 +31,13 @@ app.use(session({
     saveUninitialized: true
 }));
 
-
-
 // route config
 app.use('/', indexRouter);
 app.use('/login', indexRouter);
 app.use('/register', indexRouter);
 app.use('/editPic', indexRouter);
 app.use('/connectPic', indexRouter);
-app.use('/users', usersRouter);
+app.use('/users', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

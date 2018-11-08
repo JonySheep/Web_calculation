@@ -67,10 +67,6 @@ function toEdit(id) {
     window.location.href = encodeURI("./editPic?url=" + movie_list[id].pic_src);
 }
 
-function Logout() {
-    window.location.href = "./login";
-}
-
 $('#upload-button').click(function () {
     //获取上传的File对象，此处是一张图片对象
     var file = document.getElementById("choose").files[0];
