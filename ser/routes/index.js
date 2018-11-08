@@ -21,8 +21,8 @@ connection.connect(function (err) {
             "`username` varchar(50) primary key, " +
             "`password` varchar(100), " +
             "`name` varchar(30) default 'DefaultMan', " +
-            "`description` varchar(200) default '这个朋友很懒，什么也没有留下'," +
-            "`prefer` varchar(100) default '无' );";
+            "`description` varchar(100) default '这个朋友很懒，什么也没有留下'," +
+            "`prefer` varchar(20) default '无' );";
         connection.query(initQuery);
         console.log("成功连接数据库！");
     }
@@ -99,20 +99,22 @@ router.route('/register')
 
 router.route('/user')
     .get(function (req, result) {
-        // var username = req.session.username;
-        //
-        // var userInfoSql = 'select * from user where username=\'' +
-        //     username + '\';';
-        //
-        // connection.query(userInfoSql, function (err, res) {
-        //     if(err === null) {
-        //         result.send(res);
-        //         result.render('UserSettings', {username: req.session.username, title: '个人中心'});
-        //     } else {
-        //         result.sendStatus(500);
-        //     }
-        // });
         result.render('UserSettings', {username: req.session.username, title: '个人中心'});
+    });
+router.route('/info')
+    .get(function (req, result) {
+        var username = req.session.username;
+
+        var userInfoSql = 'select * from user where username=\'' +
+            username + '\';';
+
+        connection.query(userInfoSql, function (err, res) {
+            if(err === null) {
+                result.send(res);
+            } else {
+                result.sendStatus(500);
+            }
+        });
     })
     .post(function (req, res) {
 

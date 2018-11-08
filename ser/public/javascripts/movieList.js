@@ -46,7 +46,9 @@ var movie_list = [
 
 var newPicPath = "";
 intiateList();
+getUserInfo();
 
+// 初始化电影列表
 function intiateList() {
     $('li').remove();
 
@@ -63,10 +65,10 @@ function intiateList() {
 }
 
 function toEdit(id) {
-    console.log(id);
     window.location.href = encodeURI("./editPic?url=" + movie_list[id].pic_src);
 }
 
+// 点击上传图片按钮
 $('#upload-button').click(function () {
     //获取上传的File对象，此处是一张图片对象
     var file = document.getElementById("choose").files[0];
@@ -93,6 +95,7 @@ $('#upload-button').click(function () {
     })
 });
 
+// 点击提交按钮
 $('#submit-button').click(function () {
     var movieName = $("input[name='movieName']").val();
     var comment = $("input[name='comment']").val();
@@ -115,3 +118,20 @@ $('#submit-button').click(function () {
     movie_list.push(newMemory);
     intiateList();
 });
+
+// 得到用户信息
+function getUserInfo() {
+    $.ajax({
+        type: 'GET',
+        url: '/info',
+        success: function (res) {
+            console.log(res);
+            var userData = res[0];
+            // 设置界面
+            $('#name').text(userData.name);
+            $('#username').text(userData.username);
+            $('#description').text('"'+ userData.description + '"');
+            $('#tags').text(userData.prefer);
+        }
+    })
+}
