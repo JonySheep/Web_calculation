@@ -1,7 +1,13 @@
 "use strict";
 
 function Logout() {
-    window.location = '/login';
+    $.ajax({
+        type: 'GET',
+        url: '/logout',
+        success: function () {
+            console.log('登出成功')
+        }
+    })
 }
 
 function toSettings() {

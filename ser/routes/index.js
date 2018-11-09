@@ -3,6 +3,9 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+// crypto模块用于加密
+var crypto = require('crypto');
+
 // 连接mysql数据库
 var mysql = require('mysql');
 var connection = mysql.createConnection({
@@ -44,9 +47,13 @@ router.route('/login')
     .post(function (req, result) {
         var username = req.body.username;
         var password = req.body.password;
-        console.log(username);
-        var loginSql = 'select password from user where username=\'' + username + '\' and password=\'' + password + '\';';
-        console.log(connection);
+
+        // 对密码进行加密
+        var md5 = crypto.createHash("md5");
+        var newPass = md5.update(password).digest("hex");
+
+        var loginSql = 'select password from user where username=\'' + username + '\' and password=\'' + newPass + '\';';
+
         connection.query(loginSql, function (err, res) {
 
             if(err === null) {
@@ -84,8 +91,12 @@ router.route('/register')
         var username = req.body.username;
         var password = req.body.password;
 
+        // 对密码进行加密
+        var md5 = crypto.createHash("md5");
+        var newPass = md5.update(password).digest("hex");
+
         var regisSql = 'insert into user(username,password) values(\'' +
-            username + '\',\'' + password + '\');';
+            username + '\',\'' + newPass + '\');';
 
         // check username
         connection.query(regisSql, function (err, res) {
