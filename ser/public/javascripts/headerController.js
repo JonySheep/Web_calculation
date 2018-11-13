@@ -5,7 +5,8 @@ function Logout() {
         type: 'GET',
         url: '/logout',
         success: function () {
-            console.log('登出成功')
+            console.log('登出成功');
+            window.location = '/';
         }
     })
 }

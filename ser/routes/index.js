@@ -56,7 +56,7 @@ router.route('/login')
  */
 router.get('/logout', function (req, res) {
     req.session.username = null; // 删除session
-    res.redirect('/login');
+    res.sendStatus(200);
 });
 
 
@@ -77,12 +77,14 @@ router.route('/register')
         var newPass = md5.update(password).digest("hex");
 
         // 注册
-        var isSuccess = db.register(username, newPass);
-        if(isSuccess) {
-            result.sendStatus(200);
-        } else {
-            result.send('用户已存在');
-        }
+        var promise = db.register(username, newPass);
+        promise.then(function (value) {
+            if (value) {
+                result.sendStatus(200);
+            } else {
+                result.send('用户已存在');
+            }
+        });
     });
 
 
@@ -121,12 +123,15 @@ router.route('/info')
     .get(function (req, result) {
         var username = req.session.username;
 
-        var res = db.getUserInfo(username);
-        if (res !== null) {
-            result.send(res);
-        } else {
-            result.sendStatus(500);
-        }
+        var promise = db.getUserInfo(username);
+        promise.then(function (value) {
+            if (value !== null) {
+                result.send(value);
+            } else {
+                result.sendStatus(500);
+            }
+
+        })
     })
     .post(function (req, result) {
         var name = req.body.inputName;
@@ -134,13 +139,14 @@ router.route('/info')
         var tags = req.body.inputTags;
         var username = req.session.username;
 
-        var isSuccess = db.updateUserInfo(name, desc, tags, username);
-        if (isSuccess) {
-            result.sendStatus(200);
-        } else {
-            result.sendStatus(500);
-        }
-
+        var promise = db.updateUserInfo(name, desc, tags, username);
+        promise.then(function (value) {
+            if (value) {
+                result.sendStatus(200);
+            } else {
+                result.sendStatus(500);
+            }
+        });
     });
 
 /**
