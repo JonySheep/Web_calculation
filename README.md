@@ -14,6 +14,11 @@ https://blog.csdn.net/nature_day/article/details/44488249
 - npm start
 - 打开localhost：3000即可访问
 
+连接本地数据库的方法：
+
+- 本地root用户下建立数据库名为memento
+- 在router/index.js中 将mysql的密码改为本机密码
+
 ps：如果无法打开可能是3000端口被占用，在活动监视器里面检查一下把占用的进程kill掉
 
 ps：因为本地的assets部署到服务器处理了一下，如果直接打开html会无法加载资源

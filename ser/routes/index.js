@@ -3,34 +3,16 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+// 连接数据库
+var db = require('./dbController');
+db.connect();
+
 // crypto模块用于加密
 var crypto = require('crypto');
 
-// 连接mysql数据库
-var mysql = require('mysql');
-var connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '15078852107yyq',
-    port: '3306',
-    database: 'memento'
-});
-connection.connect(function (err) {
-    if(err) {
-        console.log(err.message);
-    } else {
-        // 自动建表
-        var initQuery = "create table if not exists `user` (" +
-            "`username` varchar(50) primary key, " +
-            "`password` varchar(100), " +
-            "`name` varchar(30) default 'DefaultMan', " +
-            "`description` varchar(100) default '这个朋友很懒，什么也没有留下'," +
-            "`prefer` varchar(20) default '无' );";
-        connection.query(initQuery);
-        console.log("成功连接数据库！");
-    }
-});
-
+/**
+ * 首页
+ */
 router.route('/')
     .get(function (req, res) {
         if(!req.session.username) {
@@ -40,6 +22,9 @@ router.route('/')
         }
     });
 
+/**
+ * 登录
+ */
 router.route('/login')
     .get(function (req, res) {
         res.render('LoginPage', {title: '用户登录'});
@@ -52,14 +37,13 @@ router.route('/login')
         var md5 = crypto.createHash("md5");
         var newPass = md5.update(password).digest("hex");
 
-        var loginSql = 'select password from user where username=\'' + username + '\' and password=\'' + newPass + '\';';
-
-        connection.query(loginSql, function (err, res) {
-
-            if(err === null) {
+        // login
+        var promise = db.login(username, newPass);
+        promise.then(function (value) {
+            if(value) {
                 // 登录成功，设置session
                 req.session.username = username;
-                result.status(200).send(res);
+                result.status(200).send('登录成功');
             } else {
                 alert('网络连接错误');
                 result.sendStatus(500);
@@ -67,26 +51,23 @@ router.route('/login')
         });
     });
 
+/**
+ * 登出
+ */
 router.get('/logout', function (req, res) {
     req.session.username = null; // 删除session
     res.redirect('/login');
 });
 
-router.get('/editPic', function (req, res) {
-    // authentication(req, res);
-    res.render('PicsEditingPage', {title: '图片导出处理'});
-});
 
-router.get('/connectPic', function (req, res) {
-    // authentication(req, res);
-    res.render('ChooseConnectPicsPage', {title: '图片合成'});
-});
-
+/**
+ * 注册
+ */
 router.route('/register')
     .get(function (req, res, next) {
-    res.render('RegisterPage', {title: '注册'});
-    next();
-})
+        res.render('RegisterPage', {title: '注册'});
+        next();
+    })
     .post(function (req, result) {
         var username = req.body.username;
         var password = req.body.password;
@@ -95,43 +76,77 @@ router.route('/register')
         var md5 = crypto.createHash("md5");
         var newPass = md5.update(password).digest("hex");
 
-        var regisSql = 'insert into user(username,password) values(\'' +
-            username + '\',\'' + newPass + '\');';
-
-        // check username
-        connection.query(regisSql, function (err, res) {
-            if(err === null) {
-                result.sendStatus(200);
-            } else {
-                result.send('用户已存在');
-            }
-        });
+        // 注册
+        var isSuccess = db.register(username, newPass);
+        if(isSuccess) {
+            result.sendStatus(200);
+        } else {
+            result.send('用户已存在');
+        }
     });
 
+
+/**
+ * 图片编辑
+ */
+router.get('/editPic', function (req, res) {
+    authentication(req, res);
+    res.render('PicsEditingPage', {title: '图片导出处理'});
+});
+
+
+/**
+ * 图片合成
+ */
+router.get('/connectPic', function (req, res) {
+    authentication(req, res);
+    res.render('ChooseConnectPicsPage', {title: '图片合成'});
+});
+
+
+/**
+ * 用户个人中心
+ */
 router.route('/user')
     .get(function (req, result) {
+        // 检测是否登录
+        authentication(req, result);
         result.render('UserSettings', {username: req.session.username, title: '个人中心'});
     });
+
+/**
+ * 得到/更新用户个人资料
+ */
 router.route('/info')
     .get(function (req, result) {
         var username = req.session.username;
 
-        var userInfoSql = 'select * from user where username=\'' +
-            username + '\';';
-
-        connection.query(userInfoSql, function (err, res) {
-            if(err === null) {
-                result.send(res);
-            } else {
-                result.sendStatus(500);
-            }
-        });
+        var res = db.getUserInfo(username);
+        if (res !== null) {
+            result.send(res);
+        } else {
+            result.sendStatus(500);
+        }
     })
-    .post(function (req, res) {
+    .post(function (req, result) {
+        var name = req.body.inputName;
+        var desc = req.body.inputDesc;
+        var tags = req.body.inputTags;
+        var username = req.session.username;
+
+        var isSuccess = db.updateUserInfo(name, desc, tags, username);
+        if (isSuccess) {
+            result.sendStatus(200);
+        } else {
+            result.sendStatus(500);
+        }
 
     });
 
-// 实现图片存储
+/**
+ * 实现图片存储
+ * @type {multer}
+ */
 var multer = require('multer');
 //选择diskStorage存储
 const storage = multer.diskStorage({
@@ -145,7 +160,9 @@ const storage = multer.diskStorage({
 
 var upload = multer({storage: storage});
 
-// 上传图片
+/**
+ * 图片上传（仅客户端）
+ */
 router.post('/upload', upload.single('pic') , function (req, res, next) {
     res.send({
         err: null,
@@ -161,9 +178,8 @@ router.post('/upload', upload.single('pic') , function (req, res, next) {
  * @param res
  */
 function authentication(req, res) {
-    if(!req.session.user) {
-        req.session.error='请先登录';
-        return res.redirect('/');
+    if(req.session.username === undefined) {
+        return res.redirect('/login');
     }
 }
 
