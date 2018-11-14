@@ -77,7 +77,8 @@ function getMementoList() {
 }
 
 function toEdit(id) {
-    window.location.href = encodeURI("./editPic?url=" + movie_list[id].pic_src);
+    console.log(movie_list);
+    window.location.href = encodeURI("./editPic?url=" + movie_list[id].picurl);
 }
 
 // 点击上传图片按钮
