@@ -1107,39 +1107,60 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="279" parent="4" name="user">
+    <table id="279" parent="4" name="tagLists">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="280" parent="279" name="username">
+    <table id="280" parent="4" name="user">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="281" parent="279" name="mementoID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="279" name="tagName">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="283" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>mementoID
+tagName</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="284" parent="280" name="username">
       <Position>1</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="279" name="password">
+    <column id="285" parent="280" name="password">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="279" name="name">
+    <column id="286" parent="280" name="name">
       <Position>3</Position>
       <DataType>varchar(30)|0</DataType>
       <DefaultExpression>&apos;DefaultMan&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="279" name="description">
+    <column id="287" parent="280" name="description">
       <Position>4</Position>
       <DataType>varchar(100)|0</DataType>
       <DefaultExpression>&apos;这个朋友很懒，什么也没有留下&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="279" name="prefer">
+    <column id="288" parent="280" name="prefer">
       <Position>5</Position>
       <DataType>varchar(20)|0</DataType>
       <DefaultExpression>&apos;无&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="285" parent="279" name="PRIMARY">
+    <key id="289" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>

@@ -166,15 +166,68 @@ const storage = multer.diskStorage({
 
 var upload = multer({storage: storage});
 
+
 /**
  * 图片上传（仅客户端）
  */
-router.post('/upload', upload.single('pic') , function (req, res, next) {
+router.post('/upload', upload.single('pic') , function (req, res) {
     res.send({
         err: null,
         //filePath:就是图片在项目中的存放路径
         filePath: 'images/upload/' + path.basename(req.file.path)
     });
+});
+
+
+/**
+ * 新增memento
+ */
+router.post('/addMemento', function (req, result) {
+    var username = req.session.username;
+    var movieName = req.body.movie_name;
+    var picUrl = req.body.pic_src;
+    var comment = req.body.comment;
+
+    var promise = db.addMemento(username, movieName, comment, picUrl);
+    promise.then(function (value) {
+        if (value) {
+            result.sendStatus(200);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
+
+
+/**
+ * 根据用户名获得用户发布的memento影评
+ */
+router.get('/getUserMementos', function (req, result) {
+    var username = req.session.username;
+
+    var promise = db.getUserMementos(username);
+    promise.then(function (value) {
+        if (value !== null) {
+            result.status(200).send(value);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
+
+
+/**
+ * 得到系统中所有memento
+ */
+router.get('/getMementoList', function (req, result) {
+    var promise = db.getMementoList();
+    promise.then(function (value) {
+        if (value !== null) {
+            result.status(200).send(value);
+        } else {
+            result.sendStatus(500);
+        }
+    })
 });
 
 
