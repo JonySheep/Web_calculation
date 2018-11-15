@@ -186,6 +186,22 @@ var db = {
         });
         promise.then(function (value) { return value; });
         return promise;
+    },
+
+
+    /**
+     * 得到某一个memento的信息
+     * @param mid
+     */
+    getMemento : function (mid) {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from mementoList where mementoID="' + mid +'";';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
     }
 };
 

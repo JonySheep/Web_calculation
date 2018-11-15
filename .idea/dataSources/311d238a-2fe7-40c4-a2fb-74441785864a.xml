@@ -1107,60 +1107,95 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="279" parent="4" name="tagLists">
+    <table id="279" parent="4" name="mementoList">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="280" parent="4" name="user">
+    <table id="280" parent="4" name="tagLists">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="281" parent="279" name="mementoID">
+    <table id="281" parent="4" name="user">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="282" parent="279" name="mementoID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="279" name="username">
+      <Position>2</Position>
+      <DataType>varchar(50)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="279" name="picurl">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="285" parent="279" name="movieName">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="286" parent="279" name="comment">
+      <Position>5</Position>
+      <DataType>varchar(120)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="287" parent="279" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>mementoID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="288" parent="280" name="mementoID">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="279" name="tagName">
+    <column id="289" parent="280" name="tagName">
       <Position>2</Position>
       <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="283" parent="279" name="PRIMARY">
+    <key id="290" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>mementoID
 tagName</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="284" parent="280" name="username">
+    <column id="291" parent="281" name="username">
       <Position>1</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="280" name="password">
+    <column id="292" parent="281" name="password">
       <Position>2</Position>
       <DataType>varchar(100)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="280" name="name">
+    <column id="293" parent="281" name="name">
       <Position>3</Position>
       <DataType>varchar(30)|0</DataType>
       <DefaultExpression>&apos;DefaultMan&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="280" name="description">
+    <column id="294" parent="281" name="description">
       <Position>4</Position>
       <DataType>varchar(100)|0</DataType>
       <DefaultExpression>&apos;这个朋友很懒，什么也没有留下&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="280" name="prefer">
+    <column id="295" parent="281" name="prefer">
       <Position>5</Position>
       <DataType>varchar(20)|0</DataType>
       <DefaultExpression>&apos;无&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="289" parent="280" name="PRIMARY">
+    <key id="296" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>

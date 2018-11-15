@@ -93,7 +93,7 @@ router.route('/register')
  */
 router.get('/editPic', function (req, res) {
     authentication(req, res);
-    res.render('PicsEditingPage', {title: '图片导出处理'});
+    res.render('MementoDetailPage', {title: '查看memento'});
 });
 
 
@@ -215,6 +215,23 @@ router.get('/getUserMementos', function (req, result) {
     })
 });
 
+
+/**
+ * 根据mementoID得到具体信息
+ */
+router.get('/memento/:mid', function (req, result) {
+    var mementoID = req.params.mid;
+
+    var promise = db.getMemento(mementoID);
+    promise.then(function (value) {
+        if (value !== null) {
+            result.status(200).send(value);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+
+});
 
 /**
  * 得到系统中所有memento
