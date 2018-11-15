@@ -233,6 +233,7 @@ router.get('/memento/:mid', function (req, result) {
 
 });
 
+
 /**
  * 得到系统中所有memento
  */
@@ -246,6 +247,37 @@ router.get('/getMementoList', function (req, result) {
         }
     })
 });
+
+
+/**
+ * tag
+ */
+router.route('/tags/:mid')
+    .get(function (req, result) {
+        var mementoID = req.params.mid;
+
+        var promise = db.getTags(mementoID);
+        promise.then(function (value) {
+            if (value !== null) {
+                result.status(200).send(value);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    })
+    .post(function (req, result) {
+        var mementoID = req.params.mid;
+        var tagName = req.body.name;
+
+        var promise = db.addTags(mementoID, tagName);
+        promise.then(function (value) {
+            if (value) {
+                result.sendStatus(200);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    });
 
 
 /**

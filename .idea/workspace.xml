@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/311d238a-2fe7-40c4-a2fb-74441785864a.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/311d238a-2fe7-40c4-a2fb-74441785864a.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/ser/public/javascripts/EditPic.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/editPics.js" />
       <change beforePath="$PROJECT_DIR$/ser/public/javascripts/mementoController.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/mementoController.js" />
+      <change beforePath="$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js" />
+      <change beforePath="$PROJECT_DIR$/ser/public/stylesheets/edit_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/edit_page.css" />
+      <change beforePath="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" />
       <change beforePath="$PROJECT_DIR$/ser/routes/dbController.js" afterPath="$PROJECT_DIR$/ser/routes/dbController.js" />
       <change beforePath="$PROJECT_DIR$/ser/routes/index.js" afterPath="$PROJECT_DIR$/ser/routes/index.js" />
-      <change beforePath="$PROJECT_DIR$/ser/views/PicsEditingPage.html" afterPath="$PROJECT_DIR$/ser/views/MementoDetailPage.html" />
+      <change beforePath="$PROJECT_DIR$/ser/views/MementoDetailPage.html" afterPath="$PROJECT_DIR$/ser/views/MementoDetailPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,20 +54,25 @@
       <file leaf-file-name="MementoDetailPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ser/views/MementoDetailPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="93" column="47" lean-forward="true" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="157">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mementoController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoController.js">
+      <file leaf-file-name="mementoDetailController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-731">
-              <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+            <state relative-caret-position="347">
+              <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
               <folding>
-                <marker date="1542249799781" expanded="true" signature="1946:1962" ph="..." />
+                <marker date="1542268452638" expanded="true" signature="1107:1120" ph="..." />
+                <marker date="1542268452638" expanded="true" signature="1176:1192" ph="..." />
+                <marker date="1542268452638" expanded="true" signature="1239:1282" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,35 +81,25 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="219" column="20" lean-forward="false" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="269" column="36" lean-forward="false" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dbController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ser/routes/dbController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="203" column="23" lean-forward="false" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
+            <state relative-caret-position="194">
+              <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mementoDetailController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mementoList" pinned="false" current-in-tab="false">
-        <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.mementoList">
+      <file leaf-file-name="tagLists" pinned="false" current-in-tab="false">
+        <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.tagLists">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -147,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/router/index.js" />
         <option value="$PROJECT_DIR$/js/server/server.js" />
         <option value="$PROJECT_DIR$/server/routes/users.js" />
         <option value="$PROJECT_DIR$/server/views/index.html" />
@@ -177,7 +171,6 @@
         <option value="$PROJECT_DIR$/ser/public/stylesheets/director_page.css" />
         <option value="$PROJECT_DIR$/ser/public/json/movieList.json" />
         <option value="$PROJECT_DIR$/ser/views/DirectorDetailPage.html" />
-        <option value="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" />
         <option value="$PROJECT_DIR$/ser/public/stylesheets/footer.css" />
         <option value="$PROJECT_DIR$/ser/views/PicsEditingPage.html" />
         <option value="$PROJECT_DIR$/ser/views/ChooseConnectPicsPage.html" />
@@ -193,11 +186,13 @@
         <option value="$PROJECT_DIR$/ser/routes/users.js" />
         <option value="$PROJECT_DIR$/ser/app.js" />
         <option value="$PROJECT_DIR$/ser/views/MemoryHomePage.html" />
-        <option value="$PROJECT_DIR$/ser/public/javascripts/mementoController.js" />
-        <option value="$PROJECT_DIR$/ser/routes/dbController.js" />
-        <option value="$PROJECT_DIR$/ser/routes/index.js" />
         <option value="$PROJECT_DIR$/ser/views/MementoDetailPage.html" />
+        <option value="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" />
+        <option value="$PROJECT_DIR$/ser/public/javascripts/mementoController.js" />
+        <option value="$PROJECT_DIR$/ser/public/stylesheets/edit_page.css" />
         <option value="$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js" />
+        <option value="$PROJECT_DIR$/ser/routes/index.js" />
+        <option value="$PROJECT_DIR$/ser/routes/dbController.js" />
       </list>
     </option>
   </component>
@@ -228,9 +223,9 @@
     <dismissed value="$PROJECT_DIR$/ser/package.json" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="38" />
+    <option name="x" value="212" />
     <option name="y" value="23" />
-    <option name="width" value="1402" />
+    <option name="width" value="1228" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectView">
@@ -279,6 +274,13 @@
               <item name="ser" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_calculation" type="462c0819:PsiDirectoryNode" />
+              <item name="ser" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Web_calculation" type="b2602c69:ProjectViewProjectNode" />
@@ -452,15 +454,15 @@
       <workItem from="1540865228188" duration="14070000" />
       <workItem from="1540888354005" duration="3116000" />
       <workItem from="1541484425847" duration="29758000" />
-      <workItem from="1542204228979" duration="2837000" />
+      <workItem from="1542204228979" duration="10077000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159270000" />
+    <option name="totallyTimeSpent" value="166510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="23" width="1402" height="821" extended-state="0" />
+    <frame x="212" y="23" width="1228" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -475,8 +477,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20220588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19485295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23187184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19477235" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24926254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -526,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/edit_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -675,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/movie_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/views/LoginPage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -693,6 +681,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,29 +715,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.tagLists">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userSetting.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/views/MemoryHomePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="59" column="77" lean-forward="false" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#form#0;n#div#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,44 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/routes/dbController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="203" column="23" lean-forward="false" selection-start-line="203" selection-start-column="23" selection-end-line="203" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="219" column="20" lean-forward="false" selection-start-line="219" selection-start-column="20" selection-end-line="219" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
-          <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <marker date="1542249799781" expanded="true" signature="1946:1962" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/javascripts/editPics.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/views/MementoDetailPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="47" lean-forward="true" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -825,10 +762,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-581">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+          <folding>
+            <marker date="1542260957407" expanded="true" signature="1981:1997" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/movie_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/MemoryHomePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="59" column="77" lean-forward="false" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/edit_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/MementoDetailPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoDetailController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="347">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+          <folding>
+            <marker date="1542268452638" expanded="true" signature="1107:1120" ph="..." />
+            <marker date="1542268452638" expanded="true" signature="1176:1192" ph="..." />
+            <marker date="1542268452638" expanded="true" signature="1239:1282" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="269" column="36" lean-forward="false" selection-start-line="269" selection-start-column="36" selection-end-line="269" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.tagLists">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/routes/dbController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="211" column="7" lean-forward="true" selection-start-line="211" selection-start-column="7" selection-end-line="211" selection-end-column="7" />
           <folding />
         </state>
       </provider>

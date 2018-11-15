@@ -8,6 +8,7 @@ var url = decodeURI(window.location.href);
 var mementoID = url.split("?url=")[1];
 
 getMementoInfo(mementoID);
+getMementoTags(mementoID);
 
 function getMementoInfo(mid) {
     $.ajax({
@@ -15,7 +16,6 @@ function getMementoInfo(mid) {
         url: '/memento/' + mid,
         success: function (res) {
             setInfo(res[0]);
-            console.log(res);
         }
     })
 }
@@ -25,6 +25,49 @@ function setInfo(mementoInfo) {
     $('#memento-title').text('/电影列表/《' + mementoInfo.movieName + '》');
 
 }
+
+function getMementoTags(mid) {
+    $.ajax({
+        type: 'GET',
+        url: '/tags/' + mid,
+        success: function (res) {
+            console.log(res);
+            setTags(res);
+        }
+    })
+}
+
+function setTags(tagList) {
+    $('li').remove();
+
+    setTimeout(200);
+    for(var i = tagList.length -1 ; i >= 0; i--) {
+        $('.tagList').append("<li><button class='tag'>" + tagList[i].tagName + "</button></li>")
+    }
+    $('.tagList').append("<div style='display: flex'>" +
+        "<input type='text' id='tag-input' style='margin-top: 20px'>" +
+        "<div class='icon-button' style='height: 25px; width: 22px; margin-left: 5px'>" +
+        "<img src='/images/icon/逆转.png' onclick='addTag()' width='20'></div></div>")
+}
+
+
+function addTag() {
+    var tagName = {
+        name: $('#tag-input').val()
+    };
+
+    $.ajax({
+        type: 'POST',
+        url: '/tags/' + mementoID,
+        data: tagName,
+        success: function () {
+            // 成功添加后刷新
+            window.location.reload();
+        }
+    })
+}
+
+//---------------------------for edit pic-----------------------------
 
 function editInitial() {
     $('#curImg').cropper({

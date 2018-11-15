@@ -139,28 +139,29 @@ var db = {
 
     /**
      * 插入一个memento信息
-     * @param movieName
-     * @param comment
-     * @param picUrl
+     * @param username 用户名
+     * @param movieName 电影名称
+     * @param comment 评论
+     * @param picUrl 图片链接
      */
     addMemento : function (username, movieName, comment, picUrl) {
         var promise = new Promise(function (resolve) {
             var insertSql = 'insert into mementoList (username, movieName, comment, picUrl) values ("' +
                 username + '","' + movieName + '","' + comment + '","' + picUrl + '");';
-            connection.query(insertSql, function (err, res) {
+            connection.query(insertSql, function (err) {
                 console.log(insertSql);
                 console.log(err);
                 resolve (err === null);
             });
         });
-        promise.then(function (value) { return value; })
+        promise.then(function (value) { return value; });
         return promise;
     },
 
 
     /**
      * 得到某用户的电影列表
-     * @param username
+     * @param username 用户名
      */
     getUserMementos : function (username) {
         var promise = new Promise(function (resolve) {
@@ -191,13 +192,46 @@ var db = {
 
     /**
      * 得到某一个memento的信息
-     * @param mid
+     * @param mid mementoID
      */
     getMemento : function (mid) {
         var promise = new Promise(function (resolve) {
             var searchSql = 'select * from mementoList where mementoID="' + mid +'";';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 得到memento的标签
+     * @param mid mementoID
+     */
+    getTags : function (mid) {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from tagLists where mementoID="' + mid +'";';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 增加一个标签
+     * @param mid mementoID
+     * @param tagName 标签名称
+     */
+    addTags : function (mid, tagName) {
+        var promise = new Promise(function (resolve) {
+            var insertSql = 'insert into tagLists(mementoID,tagName) values (' + mid + ',"' + tagName + '");';
+            connection.query(insertSql, function (err) {
+                resolve (err === null);
             })
         });
         promise.then(function (value) { return value; });

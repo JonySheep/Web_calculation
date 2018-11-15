@@ -54,11 +54,10 @@ function initiateList() {
 
     setTimeout(200);
     for(var i = movie_list.length -1 ; i >= 0; i--) {
-        $('#pic-list').append("<li ><div class='movie_detail_container'>" +
+        $('#pic-list').append("<li ><div id='" + i +"' class='movie_detail_container' onclick='toEdit(id)'>" +
             "<img src='" + movie_list[i].picurl + "' width='255' height='290'>" +
             "<p class='movie_name'>《 " + movie_list[i].movieName + "》</p>" +
             "<p style='font-size: 13px;'>" + movie_list[i].comment + "</p>" +
-            "<img id='" + i +"' src='../images/icon/导出.png' width='20' onclick='toEdit(id)'>" +
             "</div></li>")
     }
 

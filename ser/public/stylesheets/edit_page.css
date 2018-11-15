@@ -15,6 +15,30 @@
     text-align: center;
     padding-right: 20px;
 }
+.tagList {
+    width: 200px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+.tag {
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: coral 2px solid;
+    color: white;
+    background-color: rgba(255, 127, 80, 0.5);
+    margin: 5px;
+    font-size: 14px;
+}
+#tag-input {
+    border-radius: 10px;
+    margin: 5px;
+    height: 25px;
+    width: 50%;
+    font-size: 13px;
+    padding-left: 10px;
+}
 #edit-buttons {
     text-align: right;
 }
