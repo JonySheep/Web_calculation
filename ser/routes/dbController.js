@@ -280,7 +280,10 @@ var db = {
         var promise = new Promise(function (resolve) {
             var updateMementoSql = 'update mementoList set likeNum=likeNum+1, popularity=popularity+1 where mementoID="' + mid +'";';
             var updateTagsSql = 'update tagLists set popularity=popularity+1 where mementoID="' + mid +'";';
-            connection.query([updateMementoSql, updateTagsSql], function (err) {
+            connection.query(updateMementoSql, function (err) {
+                resolve (err === null);
+            })
+            connection.query(updateTagsSql, function (err) {
                 resolve (err === null);
             })
         });
@@ -292,7 +295,7 @@ var db = {
     /**
      * 浏览（点击）一个Memento，流行度+3
      */
-    browsMemento : function () {
+    browsMemento : function (mid) {
         var promise = new Promise(function (resolve) {
             var updateSql = 'update mementoList set popularity=popularity+3 where mementoID="' + mid +'";';
             connection.query(updateSql, function (err) {

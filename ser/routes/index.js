@@ -293,7 +293,7 @@ router.route('/tags/:mid')
  * 得到热门的Memento
  */
 router.get('/hotMementos', function (req, result) {
-    var promise = db.getMementoList();
+    var promise = db.getHotMemento();
     promise.then(function (value) {
         if (value !== null) {
             result.status(200).send(value);
@@ -303,6 +303,51 @@ router.get('/hotMementos', function (req, result) {
     })
 });
 
+
+/**
+ * 得到热门的tas
+ */
+router.get('/hotTags', function (req, result) {
+    var promise = db.getHotTags();
+    promise.then(function (value) {
+        if (value !== null) {
+            result.status(200).send(value);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
+
+
+/**
+ * 喜欢一个Memento，可以增加其流行度和其标签的流行度
+ */
+router.get('/like/:mid', function (req, result) {
+    var promise = db.likeMemento(req.params.mid);
+    promise.then(function (value) {
+        console.log(value);
+        if (value) {
+            result.sendStatus(200);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
+
+
+/**
+ * 浏览一个Memento，可以增加其流行度
+ */
+router.get('/brows/:mid', function (req, result) {
+    var promise = db.browsMemento(req.params.mid);
+    promise.then(function (value) {
+        if (value) {
+            result.sendStatus(200);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
 
 /**
  * 检测访问权限

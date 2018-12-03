@@ -8,7 +8,7 @@ getHotTags();
 function getHotMemento() {
     $.ajax({
         type: 'GET',
-        url: '/getMementoList',
+        url: '/hotMementos',
         success: function (res) {
             movie_list = res;
             initiateMementoList(res);
@@ -19,7 +19,7 @@ function getHotMemento() {
 function getHotTags() {
     $.ajax({
         type: 'GET',
-        url: '/getMementoList',
+        url: '/hotTags',
         success: function (res) {
             tag_list = res;
             initiateTagList(res);
@@ -32,13 +32,14 @@ function initiateMementoList(movie_list) {
     $('li').remove();
 
     setTimeout(200);
-    for(var i = 0; i <= 4; i++) {
-        $('#pic-list').append("<li ><div id='" + i +"' class='movie_detail_container'>" +
-            "<img style='cursor: pointer' src='" + movie_list[i].picurl + "' width='220' height='250' onclick='toEdit(id) />" +
+    for(var i = 0; i < movie_list.length ; i++) {
+        $('#pic-list').append("<li ><div class='movie_detail_container'>" +
+            "<img id='" + i +"' style='cursor: pointer' src='" + movie_list[i].picurl + "' width='220' height='250' onclick='toEdit(id)' />" +
             "<p class='movie_name'>《 " + movie_list[i].movieName + "》</p>" +
             "<p style='font-size: 12px;'>" + '\"' + movie_list[i].comment + '\"' + "</p>" +
-            "<div style='display: flex;'><p style='margin: 0px 10px 5px 20px; font-size: 16px'> " + movie_list[i].popularity + "</p>" +
-            "<img style='cursor: pointer' width='20' height='20' src='/images/icon/爱心.png' /></div>" +
+            "<div style='display: flex;' id='" + i +"'>" +
+            "<p id='likeNum" + i +"' style='margin: 0px 10px 5px 20px; font-size: 16px'> " + movie_list[i].popularity + "</p>" +
+            "<img id='m" + i +"' class='likeIcon' style='cursor: pointer' width='20' height='20' src='/images/icon/爱心.png' onclick='like(id)'/></div>" +
             "</div></li>")
     }
 
@@ -49,5 +50,27 @@ function initiateTagList(tag_list) {
 }
 
 function toEdit(id) {
-    window.location.href = encodeURI("./editPic?url=" + movie_list[id].mementoID);
+    $.ajax({
+        type: 'GET',
+        url: '/brows/' + movie_list[id].mementoID,
+        success: function () {
+            window.location.href = encodeURI("./editPic?url=" + movie_list[id].mementoID);
+        }
+    });
+
 }
+
+function like(id) {
+    var mid = movie_list[id.substring(1)].mementoID;
+    $.ajax({
+        type: 'GET',
+        url: '/like/' + mid,
+        success: function () {
+            console.log('???');
+            var likeNum = Number($('#likeNum' + id.substring(1)).text());
+            $('#likeNum' + id.substring(1)).text(likeNum+1);
+            $('#m' + id.substring(1)).attr('src', '/images/icon/爱心 _实心.png');
+        }
+    })
+}
+
