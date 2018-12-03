@@ -44,12 +44,11 @@ function setTags(tagList) {
     for(var i = tagList.length -1 ; i >= 0; i--) {
         $('.tagList').append("<li><button class='tag'>" + tagList[i].tagName + "</button></li>")
     }
-    $('.tagList').append("<div style='display: flex'>" +
-        "<input type='text' id='tag-input' style='margin-top: 20px'>" +
-        "<div class='icon-button' style='height: 25px; width: 22px; margin-left: 5px'>" +
-        "<img src='/images/icon/逆转.png' onclick='addTag()' width='20'></div></div>")
+    $('.tagList').append("<p style='color: white; font-size: 12px; margin-top: 20px'>新增标签</p>" +
+        "<div style='display: flex'>" +
+        "<input type='text' id='tag-input' style='margin-top: 10px'>" +
+        "<img id='add-tag-button' src='/images/icon/加.png'  width='25' height='25' onclick='addTag()'></div>")
 }
-
 
 function addTag() {
     var tagName = {
@@ -66,7 +65,6 @@ function addTag() {
         }
     })
 }
-
 //---------------------------for edit pic-----------------------------
 
 function editInitial() {

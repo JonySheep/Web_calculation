@@ -11,16 +11,16 @@
 </head>
 <body style="margin: 0px;width: 100%">
     <div class="edit-header" style="margin-bottom: 5px">
-        <p class="edit-header-title">Memento</p>
-        <p class="edit-small-title">/电影列表</p>
+        <p class="edit-header-title" onclick="toCenter()">Memento</p>
+        <p class="edit-small-title">/我的Memento</p>
         <button class="primary-button"
-                onclick="Logout()"
-                style="width: 120px;float: right;margin-right: 30px;">退出登录</button>
+                onclick="toCenter()"
+                style="width: 120px;float: right;margin-right: 30px;">返回记忆大厅</button>
         <img src="/images/user_avatar.jpg"
              class="user-avatar"
              width="40"
              height="40"
-             onclick="toSettings()"
+             onclick="toHome()"
         >
     </div>
     <div style="display: flex; background-color: #001529">
@@ -29,6 +29,7 @@
                  width="150"
                  height="150"
                  class="avatar_container"
+                 onclick="toSettings()"
                  alt="Nolan">
             <p class="director_name" id="name">Yuqin Yang</p>
             <p class="director_info" id="username">870590361@qq.com</p>

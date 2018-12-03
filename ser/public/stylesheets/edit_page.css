@@ -39,6 +39,11 @@
     font-size: 13px;
     padding-left: 10px;
 }
+#add-tag-button {
+    margin-top: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 #edit-buttons {
     text-align: right;
 }

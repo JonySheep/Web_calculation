@@ -32,7 +32,7 @@ $("#login").click(function () {
         success: function (data) {
             console.log(data);
            if(data.length !== 0) {
-               window.location = '/';
+               window.location = '/home';
            } else{
                alert('用户名或密码错误');
            };

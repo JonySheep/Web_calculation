@@ -1,0 +1,53 @@
+.center-pic {
+    height: 400px;
+    width: 100%;
+}
+.hot-memento {
+    background-color: rgba(0,0,0,0.8);
+    height: 520px;
+    width: 100%;
+    /*padding: 0px 100px 0px 100px;*/
+}
+.hot-memento-title {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+.movie_detail_container {
+    background-color: white;
+    height: 330px;
+    width: 220px;
+    text-align: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.movie_name {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+.movie_info {
+    margin: 5px;
+}
+.hot-tags {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(215, 209, 180, 0.33);
+}
+p {
+    font-family: Avenir;
+}
+ul {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -36,11 +36,14 @@ var db = {
                     "`username` varchar(50)," +
                     "`picurl` varchar(100)," +
                     "`movieName` varchar(30)," +
-                    "`comment` varchar(120));";
+                    "`comment` varchar(120)," +
+                    "`likeNum` int default 0," +
+                    "`popularity` int default 0);";
                 connection.query(createMementoListTable);
                 var createTagListTable = "create table if not exists `tagLists`(" +
                     "`mementoID` int," +
                     "`tagName` varchar(20)," +
+                    "`popularity` int default 0," +
                     "primary key (mementoID, tagName));";
                 connection.query(createTagListTable);
                 console.log("成功连接数据库！");
@@ -231,6 +234,68 @@ var db = {
         var promise = new Promise(function (resolve) {
             var insertSql = 'insert into tagLists(mementoID,tagName) values (' + mid + ',"' + tagName + '");';
             connection.query(insertSql, function (err) {
+                resolve (err === null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 得到热门Memento（根据popularity进行排序给出5个Memento）
+     */
+    getHotMemento : function () {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from mementoList order by popularity desc limit 5;';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 得到热门的标签（根据popularity进行排序给出10个tags）
+     */
+    getHotTags : function () {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from tagLists order by popularity desc limit 10;';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 给一个Memento点赞，流行度+1
+     * @param mid
+     */
+    likeMemento : function (mid) {
+        var promise = new Promise(function (resolve) {
+            var updateMementoSql = 'update mementoList set likeNum=likeNum+1, popularity=popularity+1 where mementoID="' + mid +'";';
+            var updateTagsSql = 'update tagLists set popularity=popularity+1 where mementoID="' + mid +'";';
+            connection.query([updateMementoSql, updateTagsSql], function (err) {
+                resolve (err === null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 浏览（点击）一个Memento，流行度+3
+     */
+    browsMemento : function () {
+        var promise = new Promise(function (resolve) {
+            var updateSql = 'update mementoList set popularity=popularity+3 where mementoID="' + mid +'";';
+            connection.query(updateSql, function (err) {
                 resolve (err === null);
             })
         });

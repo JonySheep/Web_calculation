@@ -15,12 +15,14 @@ var crypto = require('crypto');
  */
 router.route('/')
     .get(function (req, res) {
-        if(!req.session.username) {
-            res.redirect('/login');
-        } else {
-            res.render('MemoryHomePage', {title: '记忆大厅', username: req.session.username});
-        }
+        res.render('MementoCenterPage', {title: '记忆大厅', username: req.session.username});
     });
+
+
+router.get('/home', function (req, res) {
+    authentication(req, res);
+    res.render('MemoryHomePage', {title: '我的Memento', username: req.session.username});
+});
 
 /**
  * 登录
@@ -59,6 +61,13 @@ router.get('/logout', function (req, res) {
     res.sendStatus(200);
 });
 
+
+/**
+ * 检查是否有用户登录
+ */
+router.get('/isLogin', function (req, res) {
+   res.send(req.session.username !== undefined);
+});
 
 /**
  * 注册
@@ -250,7 +259,7 @@ router.get('/getMementoList', function (req, result) {
 
 
 /**
- * tag
+ * 得到某个Memento的所有标签
  */
 router.route('/tags/:mid')
     .get(function (req, result) {
@@ -278,6 +287,21 @@ router.route('/tags/:mid')
             }
         })
     });
+
+
+/**
+ * 得到热门的Memento
+ */
+router.get('/hotMementos', function (req, result) {
+    var promise = db.getMementoList();
+    promise.then(function (value) {
+        if (value !== null) {
+            result.status(200).send(value);
+        } else {
+            result.sendStatus(500);
+        }
+    })
+});
 
 
 /**
