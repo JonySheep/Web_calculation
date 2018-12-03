@@ -258,11 +258,11 @@ var db = {
 
 
     /**
-     * 得到热门的标签（根据popularity进行排序给出10个tags）
+     * 得到热门的标签（根据popularity进行排序给出8个tags）
      */
     getHotTags : function () {
         var promise = new Promise(function (resolve) {
-            var searchSql = 'select * from tagLists order by popularity desc limit 10;';
+            var searchSql = 'select * from tagLists order by popularity desc limit 8;';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
             })

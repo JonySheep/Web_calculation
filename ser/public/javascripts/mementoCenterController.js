@@ -29,9 +29,6 @@ function getHotTags() {
 
 // 初始化电影列表
 function initiateMementoList(movie_list) {
-    $('li').remove();
-
-    setTimeout(200);
     for(var i = 0; i < movie_list.length ; i++) {
         $('#pic-list').append("<li ><div class='movie_detail_container'>" +
             "<img id='" + i +"' style='cursor: pointer' src='" + movie_list[i].picurl + "' width='220' height='250' onclick='toEdit(id)' />" +
@@ -46,7 +43,9 @@ function initiateMementoList(movie_list) {
 }
 
 function initiateTagList(tag_list) {
-
+    for(var i = 0; i < tag_list.length ; i++) {
+        $('#tag-list').append("<li style='margin-left: 100px'><button class='tag'>" + tag_list[i].tagName + "</button></li>")
+    }
 }
 
 function toEdit(id) {
@@ -66,7 +65,6 @@ function like(id) {
         type: 'GET',
         url: '/like/' + mid,
         success: function () {
-            console.log('???');
             var likeNum = Number($('#likeNum' + id.substring(1)).text());
             $('#likeNum' + id.substring(1)).text(likeNum+1);
             $('#m' + id.substring(1)).attr('src', '/images/icon/爱心 _实心.png');
