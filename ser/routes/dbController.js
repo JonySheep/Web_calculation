@@ -198,7 +198,7 @@ var db = {
      */
     getTagList : function () {
         var promise = new Promise(function (resolve) {
-            var searchSql = 'select * from tagLists;';
+            var searchSql = 'select distinct tagName from tagLists;';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
             })
@@ -277,7 +277,7 @@ var db = {
      */
     getHotTags : function () {
         var promise = new Promise(function (resolve) {
-            var searchSql = 'select * from tagLists order by popularity desc limit 8;';
+            var searchSql = 'select tagName from tagLists group by tagName order by sum(popularity) desc limit 8;';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
             })
@@ -340,12 +340,13 @@ var db = {
 
 
     /**
-     * 通过输入的字查询标签
+     * 通过输入的标签查询Memento
      * @param str
      */
     searchTag : function (str) {
         var promise = new Promise(function (resolve) {
-            var searchSql = 'select * from tagLists where movieName like "%' + str + '%"; ';
+            var searchSql = 'select * from mementoList where mementoID in ' +
+                '(select mementoID from tagLists where TagName like "%' + str + '%") limit 5; ';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
             })

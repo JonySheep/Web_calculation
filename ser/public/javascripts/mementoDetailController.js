@@ -171,9 +171,6 @@ function shrink() {
     scaleCount -= 1;
 }
 
-function toCenter() {
-    window.location.href = "/"
-}
 
 function toConnectPage() {
     window.location.href = "/connectPic"

@@ -68,7 +68,7 @@ router.route('/getMovie')
  * get:得到所有标签
  * post:根据关键字搜索标签
  */
-router.route('getTag')
+router.route('/getTag')
     .get(function (req, result) {
         var promise = db.getTagList();
         promise.then(function (value) {
