@@ -346,7 +346,8 @@ var db = {
     searchTag : function (str) {
         var promise = new Promise(function (resolve) {
             var searchSql = 'select * from mementoList where mementoID in ' +
-                '(select mementoID from tagLists where TagName like "%' + str + '%") limit 5; ';
+                '(select mementoID from tagLists where TagName like "%' + str + '%") ' +
+                'order by popularity desc limit 5; ';
             connection.query(searchSql, function (err, res) {
                 resolve (err === null ? res : null);
             })

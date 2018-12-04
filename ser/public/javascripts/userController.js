@@ -6,10 +6,6 @@ var header = {
     "Content-Type": "application/json"
 };
 
-function checkEmail(str) {
-    var rule = /^[0-9a-zA-Z]+@[0-9a-zA-Z]+\.[a-zA-Z]{2,3}$/;
-    return rule.test(str);
-}
 
 function checkPassword(pass, confirmPass) {
     return pass === confirmPass ;
@@ -19,13 +15,8 @@ function checkPassword(pass, confirmPass) {
  * 前端调用的登录方法
  */
 $("#login").click(function () {
-    var username = $("input[name='username']");
     var password = $("input[name='password']");
 
-    if (!checkEmail(username.val())) {
-        alert('邮箱格式不正确');
-        return;
-    }
     if ((password.val()) === '') {
         alert('请填写密码');
         return;
@@ -50,16 +41,11 @@ $("#login").click(function () {
  * 前端调用的注册方法
  */
 $('#register').click(function () {
-    var username = $("input[name='username']");
     var password = $("input[name='password']");
     var confirmPass = $("input[name='confirmPassword']");
 
-    if (!checkEmail(username.val())) {
-        alert('邮箱格式不正确');
-        return;
-    }
     if(!checkPassword(password.val(), confirmPass.val())){
-        alert('两次输入的密码不相同')
+        alert('两次输入的密码不相同');
         return;
     }
     if ((password.val()) === '' || (confirmPass.val()) === '') {
@@ -124,6 +110,8 @@ $('#confirm-msg-button').click(function () {
         data: JSON.stringify(data),
         success: function (res, err) {
             alert('手机号验证成功!');
+            $('#confirm-container').css('display', 'none');
+            $('#register').removeAttr('disabled');
         }
     })
 });
