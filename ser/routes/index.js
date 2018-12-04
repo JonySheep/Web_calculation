@@ -24,6 +24,74 @@ router.get('/home', function (req, res) {
     res.render('MemoryHomePage', {title: '我的Memento', username: req.session.username});
 });
 
+
+router.get('/movies', function (req, res) {
+    res.render('MoviePage');
+});
+
+
+router.get('/tags', function (req, res) {
+    res.render('TagPage');
+});
+
+
+/**
+ * 电影页
+ * get:得到所有电影
+ * post:根据关键字搜索电影
+ */
+router.route('/getMovie')
+    .get(function (req, result) {
+        var promise = db.getMementoList();
+        promise.then(function (value) {
+            if (value !== null) {
+                result.status(200).send(value);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    })
+    .post(function (req, result) {
+        var keyword = req.body.inputKeyword;
+        var promise = db.searchMovie(keyword);
+        promise.then(function (value) {
+            if (value !== null) {
+                result.status(200).send(value);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    });
+
+/**
+ * 标签页
+ * get:得到所有标签
+ * post:根据关键字搜索标签
+ */
+router.route('getTag')
+    .get(function (req, result) {
+        var promise = db.getTagList();
+        promise.then(function (value) {
+            if (value !== null) {
+                result.status(200).send(value);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    })
+    .post(function (req, result) {
+        var keyword = req.body.inputKeyword;
+        var promise = db.searchTag(keyword);
+        promise.then(function (value) {
+            if (value !== null) {
+                result.status(200).send(value);
+            } else {
+                result.sendStatus(500);
+            }
+        })
+    });
+
+
 /**
  * 登录
  */
@@ -240,21 +308,6 @@ router.get('/memento/:mid', function (req, result) {
         }
     })
 
-});
-
-
-/**
- * 得到系统中所有memento
- */
-router.get('/getMementoList', function (req, result) {
-    var promise = db.getMementoList();
-    promise.then(function (value) {
-        if (value !== null) {
-            result.status(200).send(value);
-        } else {
-            result.sendStatus(500);
-        }
-    })
 });
 
 

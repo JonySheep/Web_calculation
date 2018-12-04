@@ -33,7 +33,7 @@ function initiateMementoList(movie_list) {
         $('#pic-list').append("<li ><div class='movie_detail_container'>" +
             "<img id='" + i +"' style='cursor: pointer' src='" + movie_list[i].picurl + "' width='220' height='250' onclick='toEdit(id)' />" +
             "<p class='movie_name'>《 " + movie_list[i].movieName + "》</p>" +
-            "<p style='font-size: 12px;'>" + '\"' + movie_list[i].comment + '\"' + "</p>" +
+            "<p style='font-size: 12px;height: 30px'>" + '\"' + movie_list[i].comment + '\"' + "</p>" +
             "<div style='display: flex;' id='" + i +"'>" +
             "<p id='likeNum" + i +"' style='margin: 0px 10px 5px 20px; font-size: 16px'> " + movie_list[i].popularity + "</p>" +
             "<img id='m" + i +"' class='likeIcon' style='cursor: pointer' width='20' height='20' src='/images/icon/爱心.png' onclick='like(id)'/></div>" +
@@ -56,7 +56,6 @@ function toEdit(id) {
             window.location.href = encodeURI("./editPic?url=" + movie_list[id].mementoID);
         }
     });
-
 }
 
 function like(id) {
@@ -72,3 +71,12 @@ function like(id) {
     })
 }
 
+
+function toMoviePage() {
+    window.location.href = '/movies';
+}
+
+
+function toTagPage() {
+    window.location.href = '/tags';
+}

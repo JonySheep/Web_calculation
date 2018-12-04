@@ -1,0 +1,93 @@
+.director_page_container {
+    background-color: #001529;
+    width: 450px;
+    height: 100%;
+    text-align: center;
+    float: left;
+    white-space: normal;
+    display: inline-block;
+    padding: 15px;
+}
+.avatar_container {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-radius: 200px;
+    border: white 1px solid;
+    cursor: pointer;
+}
+.director_name {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 100px;
+}
+.director_info {
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 15px;
+}
+.left-container {
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+    display: inline-table;
+    padding-bottom: 10px;
+}
+.movie_list_container {
+    float: left;
+}
+.movie_detail_container {
+    background-color: white;
+    height: 400px;
+    width: 255px;
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.movie_name {
+    font-size: 21px;
+    padding: 0px;
+    margin: 0px;
+}
+.movie_info {
+    margin: 5px;
+}
+.new-memento-container {
+    margin: 10px 0px 10px 10px;
+    padding: 10px 10px 10px 50px;
+    background-color: white;
+    height: 400px;
+    width: 460px;
+    float: left;
+}
+.files li{
+    font-size: 10px;
+    margin: 3px
+}
+#movie-name-input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+}
+#comment-input {
+    height: 70px;
+    width: 85%;
+    border-radius: 5px;
+    text-align: left;
+}
+p {
+    font-family: Avenir;
+}
+ul {
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

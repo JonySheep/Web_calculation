@@ -194,6 +194,21 @@ var db = {
 
 
     /**
+     * 得到系统中所有Tag
+     */
+    getTagList : function () {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from tagLists;';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
      * 得到某一个memento的信息
      * @param mid mementoID
      */
@@ -300,6 +315,39 @@ var db = {
             var updateSql = 'update mementoList set popularity=popularity+3 where mementoID="' + mid +'";';
             connection.query(updateSql, function (err) {
                 resolve (err === null);
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 通过输入的字查询电影
+     * @param str
+     */
+    searchMovie : function (str) {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from mementoList where movieName like "%' + str + '%"; ';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
+
+            })
+        });
+        promise.then(function (value) { return value; });
+        return promise;
+    },
+
+
+    /**
+     * 通过输入的字查询标签
+     * @param str
+     */
+    searchTag : function (str) {
+        var promise = new Promise(function (resolve) {
+            var searchSql = 'select * from tagLists where movieName like "%' + str + '%"; ';
+            connection.query(searchSql, function (err, res) {
+                resolve (err === null ? res : null);
             })
         });
         promise.then(function (value) { return value; });

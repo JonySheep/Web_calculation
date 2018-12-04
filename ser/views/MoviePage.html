@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Memento</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/center_page.css" />
+    <title>Memento|电影页</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/button.css" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/header.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/movie_page.css" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/center_page.css" />
     <script src="/javascripts/jquery-3.3.1.min.js" type="text/javascript" ></script>
 </head>
 <body style="margin: 0px">
 <div class="edit-header" style="margin-bottom: 5px">
     <p class="edit-header-title" onclick="toCenter()">Memento</p>
-    <p class="edit-small-title">/记忆大厅</p>
+    <p class="edit-small-title">/电影页</p>
     <button class="primary-button"
             onclick="toLogin()"
             id="login-button"
@@ -25,29 +26,22 @@
          onclick="toHome()"
     >
 </div>
-<div class="center-pic">
-    <img src="/images/Memento首页图片.png" height="400">
-</div>
-<div class="hot-memento">
-    <div style="padding: 0px 100px 0px 100px">
-        <div style="width: 100%;height: 100px">
-            <p class="hot-memento-title" style="float: left">今日最热  Hot Mementos</p>
-            <button class="primary-button"
-                    onclick="toMoviePage()"
-                    style="float: right; width: 100px; margin-top: 20px">更 多</button>
-        </div>
-        <ul id="pic-list"></ul>
+<div class="search-box">
+    <div>
+        <input class="search-input" id="search-movie-input" type="search">
+        <button class="primary-button search-button"  id="search-movie-button">Search More Movie</button>
     </div>
 </div>
-<div class="hot-tags">
-    <div style="padding: 0px 100px 0px 100px">
-        <div style="width: 100%;height: 100px">
-            <p class="hot-memento-title" style="float: left;color: black">热门标签  Hot Tags</p>
-            <button class="primary-button"
-                    onclick="toTagPage()"
-                    style="float: right; width: 100px; margin-top: 20px">更 多</button>
-        </div>
-        <ul id="tag-list" style="float: left"></ul>
+<div class="search-result-container">
+    <p class="text-prompt" style="color: white">搜索结果</p>
+    <div style="padding: 0px 100px 0px 100px;">
+        <ul id="search-result"></ul>
+    </div>
+</div>
+<div class="list-container">
+    <p class="text-prompt">所有Memento</p>
+    <div style="padding: 0px 100px 0px 100px; background-color: #d7d1b4">
+       <ul id="movie-list"></ul>
     </div>
 </div>
 <div class="footer">
@@ -61,6 +55,6 @@
     </div>
 </div>
 </body>
-<script type="text/javascript" src="/javascripts/headerController.js"></script>
-<script type="text/javascript" src="/javascripts/mementoCenterController.js"></script>
+<script src="/javascripts/moviePageController.js" type="text/javascript" ></script>
+<script src="/javascripts/headerController.js" type="text/javascript" ></script>
 </html>
