@@ -35,7 +35,7 @@ function initiateMementoList(movie_list) {
             "<p class='movie_name'>《 " + movie_list[i].movieName + "》</p>" +
             "<p style='font-size: 12px;height: 30px'>" + '\"' + movie_list[i].comment + '\"' + "</p>" +
             "<div style='display: flex;' id='" + i +"'>" +
-            "<p id='likeNum" + i +"' style='margin: 0px 10px 5px 20px; font-size: 16px'> " + movie_list[i].popularity + "</p>" +
+            "<p id='likeNum" + i +"' style='margin: 0px 10px 5px 20px; font-size: 16px'> " + movie_list[i].likeNum + "</p>" +
             "<img id='m" + i +"' class='likeIcon' style='cursor: pointer' width='20' height='20' src='/images/icon/爱心.png' onclick='like(id)'/></div>" +
             "</div></li>")
     }

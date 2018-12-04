@@ -58,7 +58,7 @@ function initiateList() {
             "<img src='" + movie_list[i].picurl + "' width='255' height='290'>" +
             "<p class='movie_name'>《 " + movie_list[i].movieName + "》</p>" +
             "<p style='font-size: 13px;height: 35px'>" + '\"' + movie_list[i].comment + '\"' + "</p>" +
-            "<div style='display: flex;'><p style='margin: 3px 10px 5px 20px; font-size: 18px'> " + movie_list[i].popularity + "</p>" +
+            "<div style='display: flex;'><p style='margin: 3px 10px 5px 20px; font-size: 18px'> " + movie_list[i].likeNum + "</p>" +
             "<img width='25' height='25' src='/images/icon/爱心 _实心.png' /></div>" +
             "</div></li>")
     }

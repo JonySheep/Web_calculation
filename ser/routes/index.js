@@ -3,6 +3,9 @@ var express = require('express');
 var router = express.Router();
 var path = require('path');
 
+// 手机验证相关
+var AV = require('leancloud-realtime');
+
 // 连接数据库
 var db = require('./dbController');
 db.connect();
