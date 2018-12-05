@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84d047e-087c-410b-87ef-f11f9392c5c7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/ser/public/javascripts/userController.js" afterPath="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
-      <change beforePath="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" afterPath="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" />
-      <change beforePath="$PROJECT_DIR$/ser/routes/dbController.js" afterPath="$PROJECT_DIR$/ser/routes/dbController.js" />
       <change beforePath="$PROJECT_DIR$/ser/views/RegisterPage.html" afterPath="$PROJECT_DIR$/ser/views/RegisterPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,31 +45,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movie_page.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/movie_page.css">
+      <file leaf-file-name="userController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="-446">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login_page.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/login_page.css">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="1710">
+              <caret line="114" column="39" lean-forward="true" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ser/routes/dbController.js">
+      <file leaf-file-name="RegisterPage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ser/views/RegisterPage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="343" column="11" lean-forward="false" selection-start-line="343" selection-start-column="11" selection-end-line="343" selection-end-column="11" />
+            <state relative-caret-position="451">
+              <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -163,10 +160,10 @@
         <option value="$PROJECT_DIR$/ser/public/javascripts/moviePageController.js" />
         <option value="$PROJECT_DIR$/ser/views/TagPage.html" />
         <option value="$PROJECT_DIR$/ser/public/javascripts/util.js" />
-        <option value="$PROJECT_DIR$/ser/views/RegisterPage.html" />
-        <option value="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
         <option value="$PROJECT_DIR$/ser/routes/dbController.js" />
         <option value="$PROJECT_DIR$/ser/public/stylesheets/movie_page.css" />
+        <option value="$PROJECT_DIR$/ser/views/RegisterPage.html" />
+        <option value="$PROJECT_DIR$/ser/public/javascripts/userController.js" />
       </list>
     </option>
   </component>
@@ -446,12 +443,12 @@
       <workItem from="1542204228979" duration="13983000" />
       <workItem from="1542357322437" duration="2936000" />
       <workItem from="1543808994401" duration="7175000" />
-      <workItem from="1543827724894" duration="20578000" />
+      <workItem from="1543827724894" duration="23814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201105000" />
+    <option name="totallyTimeSpent" value="204341000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="26" y="23" width="1414" height="821" extended-state="0" />
@@ -620,13 +617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -778,14 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/javascripts/mementoCenterController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -881,28 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ser/views/RegisterPage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="31" column="48" lean-forward="true" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ser/public/stylesheets/login_page.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -923,6 +883,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/4dc99762/311d238a-2fe7-40c4-a2fb-74441785864a/memento.user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/views/RegisterPage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="39" lean-forward="true" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ser/public/javascripts/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-446">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>

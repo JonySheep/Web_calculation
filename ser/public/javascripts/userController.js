@@ -6,6 +6,10 @@ var header = {
     "Content-Type": "application/json"
 };
 
+function checkPassValidation(pass) {
+    var rule = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{8,16}$/;
+    return rule.test(pass);
+}
 
 function checkPassword(pass, confirmPass) {
     return pass === confirmPass ;
@@ -41,17 +45,17 @@ $("#login").click(function () {
  * 前端调用的注册方法
  */
 $('#register').click(function () {
+    var username = $("input[name='username']");
     var password = $("input[name='password']");
     var confirmPass = $("input[name='confirmPassword']");
 
     if(!checkPassword(password.val(), confirmPass.val())){
-        alert('两次输入的密码不相同');
+        alert('两次输入的密码不相同')
         return;
     }
     if ((password.val()) === '' || (confirmPass.val()) === '') {
         alert('请填写密码');
     }
-
     //register
     $.ajax({
         url: '/register',
